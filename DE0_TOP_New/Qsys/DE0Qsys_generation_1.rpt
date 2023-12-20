@@ -1,0 +1,124 @@
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=D:/de0/git1220/robot/DE0_TOP_New/Qsys/ --output-directory=D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys.sopcinfo --report-file=html:D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys.html --report-file=qip:D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys/synthesis/DE0Qsys.qip --report-file=cmp:D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone III" --system-info=DEVICE=EP3C16F484C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys.qsys --language=VERILOG
+Progress: Loading Qsys/DE0Qsys.qsys
+Progress: Reading input file
+Progress: Adding clk_50m [clock_source 13.0]
+Progress: Parameterizing module clk_50m
+Progress: Adding syspll [altpll 13.0]
+Progress: Parameterizing module syspll
+Progress: Adding nios2cpu [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2cpu
+Progress: Adding sdram_ctrl [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module sdram_ctrl
+Progress: Adding dma [altera_avalon_dma 13.0.1.99.2]
+Progress: Parameterizing module dma
+Progress: Adding APB [altera_avalon_mm_bridge 13.0]
+Progress: Parameterizing module APB
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart
+Progress: Adding timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module timer
+Progress: Adding uart0 [altera_avalon_uart 13.0.1.99.2]
+Progress: Parameterizing module uart0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: DE0Qsys: Generating DE0Qsys "DE0Qsys" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 9 modules, 43 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 22 modules, 94 connections
+Info: merlin_domain_transform: After transform: 47 modules, 247 connections
+Info: merlin_router_transform: After transform: 60 modules, 298 connections
+Info: merlin_traffic_limiter_transform: After transform: 62 modules, 308 connections
+Info: merlin_burst_transform: After transform: 64 modules, 316 connections
+Info: reset_adaptation_transform: After transform: 66 modules, 254 connections
+Info: merlin_network_to_switch_transform: After transform: 90 modules, 312 connections
+Info: merlin_width_transform: After transform: 92 modules, 318 connections
+Info: Inserting clock-crossing logic between cmd_xbar_demux_002.src4 and cmd_xbar_mux_004.sink0
+Info: Inserting clock-crossing logic between rsp_xbar_demux_004.src0 and rsp_xbar_mux_002.sink4
+Info: com_altera_sopcmodel_transforms_avalon_ClockCrossingTransform: After transform: 94 modules, 328 connections
+Info: limiter_update_transform: After transform: 94 modules, 330 connections
+Info: merlin_mm_transform: After transform: 94 modules, 330 connections
+Info: merlin_interrupt_mapper_transform: After transform: 95 modules, 333 connections
+Warning: DE0Qsys: "No matching role found for uart0:s1:dataavailable (dataavailable)"
+Warning: DE0Qsys: "No matching role found for uart0:s1:readyfordata (readyfordata)"
+Info: syspll: "DE0Qsys" instantiated altpll "syspll"
+Info: nios2cpu: Starting RTL generation for module 'DE0Qsys_nios2cpu'
+Info: nios2cpu:   Generation command is [exec D:/alalala/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I D:/alalala/quartus/common/ip/altera/common/perl/5.8.3 -I D:/alalala/quartus/sopc_builder/bin/europa -I D:/alalala/quartus/sopc_builder/bin/perl_lib -I D:/alalala/quartus/sopc_builder/bin -I D:/alalala/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I D:/alalala/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I D:/alalala/quartus/../ip/altera/nios2_ip/altera_nios2 -I D:/alalala/quartus/../ip/altera/nios2_ip/altera_nios2 -- D:/alalala/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=DE0Qsys_nios2cpu --dir=C:/Users/Z30C/AppData/Local/Temp/alt9711_1855822662772490711.dir/0042_nios2cpu_gen/ --quartus_dir=D:/alalala/quartus --verilog --config=C:/Users/Z30C/AppData/Local/Temp/alt9711_1855822662772490711.dir/0042_nios2cpu_gen//DE0Qsys_nios2cpu_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: nios2cpu: # 2023.12.20 20:42:30 (*) Starting Nios II generation
+Info: nios2cpu: # 2023.12.20 20:42:30 (*)   Checking for plaintext license.
+Info: nios2cpu: # 2023.12.20 20:42:33 (*)   Plaintext license found.
+Info: nios2cpu: # 2023.12.20 20:42:33 (*)   Elaborating CPU configuration settings
+Info: nios2cpu: # 2023.12.20 20:42:33 (*)   Creating all objects for CPU
+Info: nios2cpu: # 2023.12.20 20:42:34 (*)   Generating RTL from CPU objects
+Info: nios2cpu: # 2023.12.20 20:42:34 (*)   Creating plain-text RTL
+Info: nios2cpu: # 2023.12.20 20:42:37 (*) Done Nios II generation
+Info: nios2cpu: Done RTL generation for module 'DE0Qsys_nios2cpu'
+Info: nios2cpu: "DE0Qsys" instantiated altera_nios2_qsys "nios2cpu"
+Info: sdram_ctrl: Starting RTL generation for module 'DE0Qsys_sdram_ctrl'
+Info: sdram_ctrl:   Generation command is [exec D:/alalala/quartus/bin/perl/bin/perl.exe -I D:/alalala/quartus/common/ip/altera/common/perl/5.8.3 -I D:/alalala/quartus/sopc_builder/bin/europa -I D:/alalala/quartus/sopc_builder/bin/perl_lib -I D:/alalala/quartus/sopc_builder/bin -I D:/alalala/quartus/../ip/altera/sopc_builder_ip/common -I D:/alalala/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- D:/alalala/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=DE0Qsys_sdram_ctrl --dir=C:/Users/Z30C/AppData/Local/Temp/alt9711_1855822662772490711.dir/0043_sdram_ctrl_gen/ --quartus_dir=D:/alalala/quartus --verilog --config=C:/Users/Z30C/AppData/Local/Temp/alt9711_1855822662772490711.dir/0043_sdram_ctrl_gen//DE0Qsys_sdram_ctrl_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram_ctrl: Done RTL generation for module 'DE0Qsys_sdram_ctrl'
+Info: sdram_ctrl: "DE0Qsys" instantiated altera_avalon_new_sdram_controller "sdram_ctrl"
+Info: dma: Starting RTL generation for module 'DE0Qsys_dma'
+Info: dma:   Generation command is [exec D:/alalala/quartus/bin/perl/bin/perl.exe -I D:/alalala/quartus/common/ip/altera/common/perl/5.8.3 -I D:/alalala/quartus/sopc_builder/bin/europa -I D:/alalala/quartus/sopc_builder/bin/perl_lib -I D:/alalala/quartus/sopc_builder/bin -I D:/alalala/quartus/../ip/altera/sopc_builder_ip/common -I D:/alalala/quartus/../ip/altera/sopc_builder_ip/altera_avalon_dma -- D:/alalala/quartus/../ip/altera/sopc_builder_ip/altera_avalon_dma/generate_rtl.pl --name=DE0Qsys_dma --dir=C:/Users/Z30C/AppData/Local/Temp/alt9711_1855822662772490711.dir/0044_dma_gen/ --quartus_dir=D:/alalala/quartus --verilog --config=C:/Users/Z30C/AppData/Local/Temp/alt9711_1855822662772490711.dir/0044_dma_gen//DE0Qsys_dma_component_configuration.pl  --do_build_sim=0  ]
+Info: dma: # 2023.12.20 20:42:38 (*)   DE0Qsys_dma: allowing these transactions: word, hw, byte_access
+Info: dma: Done RTL generation for module 'DE0Qsys_dma'
+Info: dma: "DE0Qsys" instantiated altera_avalon_dma "dma"
+Info: APB: "DE0Qsys" instantiated altera_avalon_mm_bridge "APB"
+Info: jtag_uart: Starting RTL generation for module 'DE0Qsys_jtag_uart'
+Info: jtag_uart:   Generation command is [exec D:/alalala/quartus/bin/perl/bin/perl.exe -I D:/alalala/quartus/common/ip/altera/common/perl/5.8.3 -I D:/alalala/quartus/sopc_builder/bin/europa -I D:/alalala/quartus/sopc_builder/bin/perl_lib -I D:/alalala/quartus/sopc_builder/bin -I D:/alalala/quartus/../ip/altera/sopc_builder_ip/common -I D:/alalala/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/alalala/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=DE0Qsys_jtag_uart --dir=C:/Users/Z30C/AppData/Local/Temp/alt9711_1855822662772490711.dir/0045_jtag_uart_gen/ --quartus_dir=D:/alalala/quartus --verilog --config=C:/Users/Z30C/AppData/Local/Temp/alt9711_1855822662772490711.dir/0045_jtag_uart_gen//DE0Qsys_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'DE0Qsys_jtag_uart'
+Info: jtag_uart: "DE0Qsys" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: timer: Starting RTL generation for module 'DE0Qsys_timer'
+Info: timer:   Generation command is [exec D:/alalala/quartus/bin/perl/bin/perl.exe -I D:/alalala/quartus/common/ip/altera/common/perl/5.8.3 -I D:/alalala/quartus/sopc_builder/bin/europa -I D:/alalala/quartus/sopc_builder/bin/perl_lib -I D:/alalala/quartus/sopc_builder/bin -I D:/alalala/quartus/../ip/altera/sopc_builder_ip/common -I D:/alalala/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- D:/alalala/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=DE0Qsys_timer --dir=C:/Users/Z30C/AppData/Local/Temp/alt9711_1855822662772490711.dir/0046_timer_gen/ --quartus_dir=D:/alalala/quartus --verilog --config=C:/Users/Z30C/AppData/Local/Temp/alt9711_1855822662772490711.dir/0046_timer_gen//DE0Qsys_timer_component_configuration.pl  --do_build_sim=0  ]
+Info: timer: Done RTL generation for module 'DE0Qsys_timer'
+Info: timer: "DE0Qsys" instantiated altera_avalon_timer "timer"
+Info: uart0: Starting RTL generation for module 'DE0Qsys_uart0'
+Info: uart0:   Generation command is [exec D:/alalala/quartus/bin/perl/bin/perl.exe -I D:/alalala/quartus/common/ip/altera/common/perl/5.8.3 -I D:/alalala/quartus/sopc_builder/bin/europa -I D:/alalala/quartus/sopc_builder/bin/perl_lib -I D:/alalala/quartus/sopc_builder/bin -I D:/alalala/quartus/../ip/altera/sopc_builder_ip/common -I D:/alalala/quartus/../ip/altera/sopc_builder_ip/altera_avalon_uart -- D:/alalala/quartus/../ip/altera/sopc_builder_ip/altera_avalon_uart/generate_rtl.pl --name=DE0Qsys_uart0 --dir=C:/Users/Z30C/AppData/Local/Temp/alt9711_1855822662772490711.dir/0047_uart0_gen/ --quartus_dir=D:/alalala/quartus --verilog --config=C:/Users/Z30C/AppData/Local/Temp/alt9711_1855822662772490711.dir/0047_uart0_gen//DE0Qsys_uart0_component_configuration.pl  --do_build_sim=0  ]
+Info: uart0: Done RTL generation for module 'DE0Qsys_uart0'
+Info: uart0: "DE0Qsys" instantiated altera_avalon_uart "uart0"
+Info: nios2cpu_instruction_master_translator: "DE0Qsys" instantiated altera_merlin_master_translator "nios2cpu_instruction_master_translator"
+Info: nios2cpu_jtag_debug_module_translator: "DE0Qsys" instantiated altera_merlin_slave_translator "nios2cpu_jtag_debug_module_translator"
+Info: nios2cpu_instruction_master_translator_avalon_universal_master_0_agent: "DE0Qsys" instantiated altera_merlin_master_agent "nios2cpu_instruction_master_translator_avalon_universal_master_0_agent"
+Info: nios2cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent: "DE0Qsys" instantiated altera_merlin_slave_agent "nios2cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: nios2cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "DE0Qsys" instantiated altera_avalon_sc_fifo "nios2cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "DE0Qsys" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "DE0Qsys" instantiated altera_merlin_router "addr_router_001"
+Info: addr_router_002: "DE0Qsys" instantiated altera_merlin_router "addr_router_002"
+Info: id_router: "DE0Qsys" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "DE0Qsys" instantiated altera_merlin_router "id_router_001"
+Info: id_router_003: "DE0Qsys" instantiated altera_merlin_router "id_router_003"
+Info: id_router_004: "DE0Qsys" instantiated altera_merlin_router "id_router_004"
+Info: addr_router_004: "DE0Qsys" instantiated altera_merlin_router "addr_router_004"
+Info: id_router_005: "DE0Qsys" instantiated altera_merlin_router "id_router_005"
+Info: limiter: "DE0Qsys" instantiated altera_merlin_traffic_limiter "limiter"
+Info: burst_adapter: "DE0Qsys" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "DE0Qsys" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "DE0Qsys" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "DE0Qsys" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_demux_002: "DE0Qsys" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_002"
+Info: cmd_xbar_demux_003: "DE0Qsys" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_003"
+Info: cmd_xbar_mux: "DE0Qsys" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: cmd_xbar_mux_001: "DE0Qsys" instantiated altera_merlin_multiplexer "cmd_xbar_mux_001"
+Info: Reusing file D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_demux_004: "DE0Qsys" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_004"
+Info: rsp_xbar_mux: "DE0Qsys" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "DE0Qsys" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_002: "DE0Qsys" instantiated altera_merlin_multiplexer "rsp_xbar_mux_002"
+Info: Reusing file D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_xbar_demux_004: "DE0Qsys" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_004"
+Info: rsp_xbar_demux_005: "DE0Qsys" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_005"
+Info: rsp_xbar_mux_004: "DE0Qsys" instantiated altera_merlin_multiplexer "rsp_xbar_mux_004"
+Info: Reusing file D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "DE0Qsys" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: crosser: "DE0Qsys" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: Reusing file D:/de0/git1220/robot/DE0_TOP_New/Qsys/DE0Qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: irq_mapper: "DE0Qsys" instantiated altera_irq_mapper "irq_mapper"
+Info: DE0Qsys: Done DE0Qsys" with 42 modules, 125 files, 2506822 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

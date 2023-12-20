@@ -237,5 +237,28 @@ button_debouncer	button_debouncer_inst2(
 //=======================================================
 //  Structural coding
 //=======================================================
-
-endmodule
+//=======================================================
+//  Structural coding
+//=======================================================
+ 
+    DE0Qsys u0 (
+        .clk_50m_clk       (CLOCK_50),      //     clk_50m.clk
+        .reset_reset_n     (BUTTON[0]),     //       reset.reset_n
+        .dram_clk_clk      (DRAM_CLK),      //    dram_clk.clk
+        .sdram_wires_addr  (DRAM_ADDR),     // sdram_wires.addr
+        .sdram_wires_ba    ({DRAM_BA_1, DRAM_BA_0}),    //            .ba
+        .sdram_wires_cas_n (DRAM_CAS_N),    //            .cas_n
+        .sdram_wires_cke   (DRAM_CKE),      //            .cke
+        .sdram_wires_cs_n  (DRAM_CS_N),     //            .cs_n
+        .sdram_wires_dq    (DRAM_DQ),       //            .dq
+        .sdram_wires_dqm   ({DRAM_UDQM, DRAM_LDQM}),   //            .dqm
+        .sdram_wires_ras_n (DRAM_RAS_N),    //            .ras_n
+        .sdram_wires_we_n  (DRAM_WE_N),     //            .we_n
+        .uart0_rxd         (UART_RXD),      //       uart0.rxd
+        .uart0_txd         (UART_TXD),      //            .txd
+        //.led_export        (LEDG),          //         led.export
+        .areset_export     (0),             //      areset.export
+        .locked_export     (/* no use */),  //      locked.export
+        .phasedone_export  (/* no use */)   //   phasedone.export
+    );
+endmodule 

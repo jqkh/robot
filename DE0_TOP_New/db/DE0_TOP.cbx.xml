@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="DE0_TOP">
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|DE0Qsys:u0|DE0Qsys_dma:dma|DE0Qsys_dma_fifo_module:the_DE0Qsys_dma_fifo_module|DE0Qsys_dma_fifo_module_fifo_ram_module:DE0Qsys_dma_fifo_module_fifo_ram|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram" CBX_FILE_NAME="dpram_spd1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|DE0Qsys:u0|DE0Qsys_dma:dma|DE0Qsys_dma_fifo_module:the_DE0Qsys_dma_fifo_module|DE0Qsys_dma_fifo_module_fifo_ram_module:DE0Qsys_dma_fifo_module_fifo_ram|lpm_ram_dp:lpm_ram_dp_component|altdpram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_oeq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|DE0Qsys:u0|DE0Qsys_jtag_uart:jtag_uart|DE0Qsys_jtag_uart_scfifo_w:the_DE0Qsys_jtag_uart_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_aq21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|DE0Qsys:u0|DE0Qsys_nios2cpu:nios2cpu|DE0Qsys_nios2cpu_nios2_oci:the_DE0Qsys_nios2cpu_nios2_oci|DE0Qsys_nios2cpu_nios2_ocimem:the_DE0Qsys_nios2cpu_nios2_ocimem|DE0Qsys_nios2cpu_ociram_sp_ram_module:DE0Qsys_nios2cpu_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_gv71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|DE0Qsys:u0|DE0Qsys_nios2cpu:nios2cpu|DE0Qsys_nios2cpu_register_bank_a_module:DE0Qsys_nios2cpu_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_cig1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|DE0Qsys:u0|DE0Qsys_nios2cpu:nios2cpu|DE0Qsys_nios2cpu_register_bank_b_module:DE0Qsys_nios2cpu_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_dig1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE0_TOP|DE0Qsys:u0|DE0Qsys_jtag_uart:jtag_uart|DE0Qsys_jtag_uart_scfifo_r:the_DE0Qsys_jtag_uart_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_aq21.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
