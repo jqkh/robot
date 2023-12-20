@@ -541,9 +541,9 @@ endmodule
 
 //DMA peripheral DE0Qsys_dma
 //Read slaves:
-//timer.s1,uart0.s1,sdram_ctrl.s1,jtag_uart.avalon_jtag_slave; 
+//button2.s1,timer.s1,button1.s1,uart0.s1,sdram_ctrl.s1,led.s1,jtag_uart.avalon_jtag_slave,sw.s1; 
 //Write slaves:
-//timer.s1,uart0.s1,sdram_ctrl.s1,jtag_uart.avalon_jtag_slave; 
+//button2.s1,timer.s1,button1.s1,uart0.s1,sdram_ctrl.s1,led.s1,jtag_uart.avalon_jtag_slave,sw.s1; 
 
 
 module DE0Qsys_dma (
