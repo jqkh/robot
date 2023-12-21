@@ -5,6 +5,8 @@
 #include <time.h>
 #include <stdlib.h>
 #include <star.c>
+#include "pio.h" /* pioㄧ计 */
+#include "pio.c" /* pioㄧ计 */
 
 void location1(int maze[11][11]);
 int he0(int x);
@@ -75,87 +77,97 @@ int main(){
 		location1(maze3[11][11]);
 		break;
 	}
+	printf("you win");
 	}
 return 0;
 }
 void location1(int maze[11][11])
 {
+	unsigned int tmp;
+    sPIO_s sPIO; /* PIO 挡篶跑计*/
+	printf("PIO interrupt experimental!\n");
+	PIOISRInitial(&sPIO); /* ﹍てISRㄧ计 */
+	tmp = sPIO.uiPressCnt;
 	int x,y,a,b,c,d,i,sw,bt2,dir,led;
 	x=6,y=6;
 	while(i==1){
-
-			if(maze[y][x]==2)
-				{
-				for(i=0;i<2;i++)
-				{
-					led = led << 1;
-				    if(led > 0x100)
-				    	{
-				              led = 0x01;
-				        }
-				    IOWR(LED_BASE, 0, led);
-				    usleep(11000);
-				}
-				break;
-				}
-			if(maze[y--][x]!=1){
-				a=0x0;
-			}else{
-				a=0x40;
+		if(tmp != sPIO.uiPressCnt){
+			  printf("pause game \n");
+			  printf("%d\n",tmp);
+			  tmp = sPIO.uiPressCnt;
 			}
-			if(maze[y++][x]!=1){
-						b=0x0;
-					}else{
-						b=0x08;
-					}
-			if(maze[y][x--]!=1){
-						c=0x0;
-					}else{
-						c=0x30;
-					}
-			if(maze[y][x--]!=1){
-						d=0x0;
-					}else{
-						d=0x06;
-					}
-			dir=a+b+c+d;
-			IOWR(HEX3_BASE,0,~dir);
-			bt2=IORD(BUTTON2_BASE,0);
-				if(bt2==1)
+		if(maze[y][x]==2)
+			{
+			for(i=0;i<2;i++)
 				{
-				sw=IORD(SW_BASE,0);
-				if(sw&0X01)
+				led = led << 1;
+				if(led > 0x100)
 					{
-					if(maze1[y--][x]!=1)
-						{
-							y--;
-						}
+						  led = 0x01;
 					}
-				if(sw&0X02)
+				IOWR(LED_BASE, 0, led);
+				usleep(11000);
+				}
+			break;
+			}
+		if(maze[y--][x]!=1){
+			a=0x0;
+		}else{
+			a=0x40;
+		}
+		if(maze[y++][x]!=1){
+					b=0x0;
+				}else{
+					b=0x08;
+				}
+		if(maze[y][x--]!=1){
+					c=0x0;
+				}else{
+					c=0x30;
+				}
+		if(maze[y][x--]!=1){
+					d=0x0;
+				}else{
+					d=0x06;
+				}
+		dir=a+b+c+d;
+		IOWR(HEX3_BASE,0,~dir);
+		bt2=IORD(BUTTON2_BASE,0);
+			if(bt2==1)
+			{
+			sw=IORD(SW_BASE,0);
+			if(sw&0X01)
+				{
+				if(maze1[y--][x]!=1)
 					{
-					if(maze1[y++][x]!=1)
-						{
-							y++;
-						}
-					}
-				if(sw&0X04)
-					{
-					if(maze1[y][x++]!=1)
-						{
-							x++;
-						}
-					}
-				if(sw&0X08)
-					{
-					if(maze1[y][x--]!=1)
-						{
-							x--;
-						}
+						y--;
 					}
 				}
-				IOWR(HEX0_BASE,0,he0(x));
-				IOWR(HEX2_BASE,0,he0(y));
+			if(sw&0X02)
+				{
+				if(maze1[y++][x]!=1)
+					{
+						y++;
+					}
+				}
+			if(sw&0X04)
+				{
+				if(maze1[y][x++]!=1)
+					{
+						x++;
+					}
+				}
+			if(sw&0X08)
+				{
+				if(maze1[y][x--]!=1)
+					{
+						x--;
+					}
+				}
 			}
+			IOWR(HEX0_BASE,0,he0(x));
+			IOWR(HEX2_BASE,0,he0(y));
+		}
 }
 int he0(int x)
 {
