@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>2023/12/20 下午 10:51:17</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1703083877332</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>2023/12/21 上午 01:55:25</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1703094925781</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>F:\git_file\robot\DE0_TOP_New\Qsys\software\robot_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>F:\git_file\robot\DE0_TOP_New\Qsys\DE0Qsys.sopcinfo</SopcDesignFile>
@@ -899,32 +899,56 @@
                 <attributes>timer</attributes>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>button2</slaveDescriptor>
+                <slaveDescriptor>hex3</slaveDescriptor>
                 <addressRange>0x01000040 - 0x0100004F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>button1</slaveDescriptor>
+                <slaveDescriptor>hex2</slaveDescriptor>
                 <addressRange>0x01000050 - 0x0100005F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>led</slaveDescriptor>
+                <slaveDescriptor>hex1</slaveDescriptor>
                 <addressRange>0x01000060 - 0x0100006F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>sw</slaveDescriptor>
+                <slaveDescriptor>hex0</slaveDescriptor>
                 <addressRange>0x01000070 - 0x0100007F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
+                <slaveDescriptor>button2</slaveDescriptor>
+                <addressRange>0x01000080 - 0x0100008F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>button1</slaveDescriptor>
+                <addressRange>0x01000090 - 0x0100009F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>led</slaveDescriptor>
+                <addressRange>0x010000A0 - 0x010000AF</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>sw</slaveDescriptor>
+                <addressRange>0x010000B0 - 0x010000BF</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
                 <slaveDescriptor>jtag_uart</slaveDescriptor>
-                <addressRange>0x01000080 - 0x01000087</addressRange>
+                <addressRange>0x010000C0 - 0x010000C7</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>

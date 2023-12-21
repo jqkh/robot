@@ -256,7 +256,11 @@ button_debouncer	button_debouncer_inst2(
         .phasedone_export  (/* no use */),   	  //   phasedone.export
 		  .led_export        (LEDG[3:0]),        //         led.export
         .sw_export         (SW[9:0]),          //          sw.export
-        .button1_export    (BUTTON[1]),   	  //     button1.export
-        .button2_export    (BUTTON[2])  
+        .button1_export    (BUTTON[1]),   	 			 //     button1.export
+        .button2_export    (BUTTON[2]),  
+		  .hex0_export       ({HEX0_DP,HEX0_D}),       //        hex0.export
+        .hex1_export       ({HEX1_DP,HEX1_D}),       //        hex1.export
+        .hex2_export       ({HEX2_DP,HEX2_D}),       //        hex2.export
+        .hex3_export       ({HEX3_DP,HEX3_D})        //        hex3.export
     );
 endmodule 
