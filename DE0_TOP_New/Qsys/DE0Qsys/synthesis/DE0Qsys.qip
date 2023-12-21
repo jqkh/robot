@@ -2,7 +2,7 @@ set_global_assignment -entity "DE0Qsys" -library "DE0Qsys" -name IP_TOOL_NAME "Q
 set_global_assignment -entity "DE0Qsys" -library "DE0Qsys" -name IP_TOOL_VERSION "13.0sp1"
 set_global_assignment -entity "DE0Qsys" -library "DE0Qsys" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -library "DE0Qsys" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../DE0Qsys.sopcinfo"]
-set_instance_assignment -entity "DE0Qsys" -library "DE0Qsys" -name SLD_INFO "QSYS_NAME DE0Qsys HAS_SOPCINFO 1 GENERATION_ID 1703083407"
+set_instance_assignment -entity "DE0Qsys" -library "DE0Qsys" -name SLD_INFO "QSYS_NAME DE0Qsys HAS_SOPCINFO 1 GENERATION_ID 1703094376"
 set_global_assignment -library "DE0Qsys" -name MISC_FILE [file join $::quartus(qip_path) "../../DE0Qsys.cmp"]
 set_global_assignment -name SYNTHESIS_ONLY_QIP ON
 set_global_assignment -library "DE0Qsys" -name MISC_FILE [file join $::quartus(qip_path) "../../DE0Qsys.qsys"]
@@ -48,6 +48,7 @@ set_global_assignment -library "DE0Qsys" -name SYSTEMVERILOG_FILE [file join $::
 set_global_assignment -library "DE0Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_agent.sv"]
 set_global_assignment -library "DE0Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
 set_global_assignment -library "DE0Qsys" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "DE0Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/DE0Qsys_hex0.v"]
 set_global_assignment -library "DE0Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/DE0Qsys_button2.v"]
 set_global_assignment -library "DE0Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/DE0Qsys_button1.v"]
 set_global_assignment -library "DE0Qsys" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/DE0Qsys_sw.v"]
@@ -169,6 +170,9 @@ set_global_assignment -entity "altera_merlin_slave_translator" -library "DE0Qsys
 set_global_assignment -entity "altera_merlin_master_translator" -library "DE0Qsys" -name IP_TOOL_NAME "altera_merlin_master_translator"
 set_global_assignment -entity "altera_merlin_master_translator" -library "DE0Qsys" -name IP_TOOL_VERSION "13.0"
 set_global_assignment -entity "altera_merlin_master_translator" -library "DE0Qsys" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "DE0Qsys_hex0" -library "DE0Qsys" -name IP_TOOL_NAME "altera_avalon_pio"
+set_global_assignment -entity "DE0Qsys_hex0" -library "DE0Qsys" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "DE0Qsys_hex0" -library "DE0Qsys" -name IP_TOOL_ENV "Qsys"
 set_global_assignment -entity "DE0Qsys_button2" -library "DE0Qsys" -name IP_TOOL_NAME "altera_avalon_pio"
 set_global_assignment -entity "DE0Qsys_button2" -library "DE0Qsys" -name IP_TOOL_VERSION "13.0.1.99.2"
 set_global_assignment -entity "DE0Qsys_button2" -library "DE0Qsys" -name IP_TOOL_ENV "Qsys"

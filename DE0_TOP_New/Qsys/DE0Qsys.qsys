@@ -24,7 +24,7 @@
    {
       datum baseAddress
       {
-         value = "128";
+         value = "192";
          type = "String";
       }
    }
@@ -92,6 +92,38 @@
          type = "int";
       }
    }
+   element hex0
+   {
+      datum _sortIndex
+      {
+         value = "13";
+         type = "int";
+      }
+   }
+   element hex1
+   {
+      datum _sortIndex
+      {
+         value = "14";
+         type = "int";
+      }
+   }
+   element hex2
+   {
+      datum _sortIndex
+      {
+         value = "15";
+         type = "int";
+      }
+   }
+   element hex3
+   {
+      datum _sortIndex
+      {
+         value = "16";
+         type = "int";
+      }
+   }
    element nios2cpu.jtag_debug_module
    {
       datum baseAddress
@@ -140,6 +172,70 @@
          type = "String";
       }
    }
+   element hex3.s1
+   {
+      datum baseAddress
+      {
+         value = "64";
+         type = "String";
+      }
+   }
+   element uart0.s1
+   {
+      datum baseAddress
+      {
+         value = "0";
+         type = "String";
+      }
+   }
+   element hex0.s1
+   {
+      datum baseAddress
+      {
+         value = "112";
+         type = "String";
+      }
+   }
+   element sw.s1
+   {
+      datum baseAddress
+      {
+         value = "176";
+         type = "String";
+      }
+   }
+   element button2.s1
+   {
+      datum baseAddress
+      {
+         value = "128";
+         type = "String";
+      }
+   }
+   element hex2.s1
+   {
+      datum baseAddress
+      {
+         value = "80";
+         type = "String";
+      }
+   }
+   element timer.s1
+   {
+      datum baseAddress
+      {
+         value = "32";
+         type = "String";
+      }
+   }
+   element hex1.s1
+   {
+      datum baseAddress
+      {
+         value = "96";
+         type = "String";
+      }
+   }
    element sdram_ctrl.s1
    {
       datum baseAddress
@@ -152,7 +248,7 @@
    {
       datum baseAddress
       {
-         value = "80";
+         value = "144";
          type = "String";
       }
    }
@@ -160,39 +256,7 @@
    {
       datum baseAddress
       {
-         value = "96";
-         type = "String";
-      }
-   }
-   element timer.s1
-   {
-      datum baseAddress
-      {
-         value = "32";
-         type = "String";
-      }
-   }
-   element uart0.s1
-   {
-      datum baseAddress
-      {
-         value = "0";
-         type = "String";
-      }
-   }
-   element button2.s1
-   {
-      datum baseAddress
-      {
-         value = "64";
-         type = "String";
-      }
-   }
-   element sw.s1
-   {
-      datum baseAddress
-      {
-         value = "112";
+         value = "160";
          type = "String";
       }
    }
@@ -251,7 +315,7 @@
  <parameter name="projectName" value="" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1703081983234" />
+ <parameter name="timeStamp" value="1703095301586" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk_50m" internal="clk_50m.clk_in" type="clock" dir="end" />
@@ -296,6 +360,26 @@
  <interface
    name="button2"
    internal="button2.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="hex0"
+   internal="hex0.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="hex1"
+   internal="hex1.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="hex2"
+   internal="hex2.external_connection"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="hex3"
+   internal="hex3.external_connection"
    type="conduit"
    dir="end" />
  <module kind="clock_source" version="13.0" enabled="1" name="clk_50m">
@@ -572,8 +656,8 @@
   <parameter name="tightlyCoupledInstructionMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
-  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='uart0.s1' start='0x1000000' end='0x1000020' /><slave name='timer.s1' start='0x1000020' end='0x1000040' /><slave name='button2.s1' start='0x1000040' end='0x1000050' /><slave name='button1.s1' start='0x1000050' end='0x1000060' /><slave name='led.s1' start='0x1000060' end='0x1000070' /><slave name='sw.s1' start='0x1000070' end='0x1000080' /><slave name='jtag_uart.avalon_jtag_slave' start='0x1000080' end='0x1000088' /><slave name='sdram_ctrl.s1' start='0x2800000' end='0x3000000' /><slave name='nios2cpu.jtag_debug_module' start='0x3000800' end='0x3001000' /><slave name='dma.control_port_slave' start='0x3001020' end='0x3001040' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='uart0.s1' start='0x1000000' end='0x1000020' /><slave name='timer.s1' start='0x1000020' end='0x1000040' /><slave name='button2.s1' start='0x1000040' end='0x1000050' /><slave name='button1.s1' start='0x1000050' end='0x1000060' /><slave name='led.s1' start='0x1000060' end='0x1000070' /><slave name='sw.s1' start='0x1000070' end='0x1000080' /><slave name='jtag_uart.avalon_jtag_slave' start='0x1000080' end='0x1000088' /><slave name='sdram_ctrl.s1' start='0x2800000' end='0x3000000' /><slave name='nios2cpu.jtag_debug_module' start='0x3000800' end='0x3001000' /><slave name='dma.control_port_slave' start='0x3001020' end='0x3001040' /><slave name='syspll.pll_slave' start='0x3001040' end='0x3001050' /></address-map>]]></parameter>
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='uart0.s1' start='0x1000000' end='0x1000020' /><slave name='timer.s1' start='0x1000020' end='0x1000040' /><slave name='hex3.s1' start='0x1000040' end='0x1000050' /><slave name='hex2.s1' start='0x1000050' end='0x1000060' /><slave name='hex1.s1' start='0x1000060' end='0x1000070' /><slave name='hex0.s1' start='0x1000070' end='0x1000080' /><slave name='button2.s1' start='0x1000080' end='0x1000090' /><slave name='button1.s1' start='0x1000090' end='0x10000A0' /><slave name='led.s1' start='0x10000A0' end='0x10000B0' /><slave name='sw.s1' start='0x10000B0' end='0x10000C0' /><slave name='jtag_uart.avalon_jtag_slave' start='0x10000C0' end='0x10000C8' /><slave name='sdram_ctrl.s1' start='0x2800000' end='0x3000000' /><slave name='nios2cpu.jtag_debug_module' start='0x3000800' end='0x3001000' /><slave name='dma.control_port_slave' start='0x3001020' end='0x3001040' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='uart0.s1' start='0x1000000' end='0x1000020' /><slave name='timer.s1' start='0x1000020' end='0x1000040' /><slave name='hex3.s1' start='0x1000040' end='0x1000050' /><slave name='hex2.s1' start='0x1000050' end='0x1000060' /><slave name='hex1.s1' start='0x1000060' end='0x1000070' /><slave name='hex0.s1' start='0x1000070' end='0x1000080' /><slave name='button2.s1' start='0x1000080' end='0x1000090' /><slave name='button1.s1' start='0x1000090' end='0x10000A0' /><slave name='led.s1' start='0x10000A0' end='0x10000B0' /><slave name='sw.s1' start='0x10000B0' end='0x10000C0' /><slave name='jtag_uart.avalon_jtag_slave' start='0x10000C0' end='0x10000C8' /><slave name='sdram_ctrl.s1' start='0x2800000' end='0x3000000' /><slave name='nios2cpu.jtag_debug_module' start='0x3000800' end='0x3001000' /><slave name='dma.control_port_slave' start='0x3001020' end='0x3001040' /><slave name='syspll.pll_slave' start='0x3001040' end='0x3001050' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="133333328" />
   <parameter name="deviceFamilyName" value="Cyclone III" />
   <parameter name="internalIrqMaskSystemInfo" value="31" />
@@ -630,10 +714,10 @@
   <parameter name="minimumDmaTransactionRegisterWidth" value="13" />
   <parameter name="useRegistersForFIFO" value="false" />
   <parameter name="avalonSpec" value="2.0" />
-  <parameter name="readAddressMap"><![CDATA[<address-map><slave name='uart0.s1' start='0x1000000' end='0x1000020' /><slave name='timer.s1' start='0x1000020' end='0x1000040' /><slave name='button2.s1' start='0x1000040' end='0x1000050' /><slave name='button1.s1' start='0x1000050' end='0x1000060' /><slave name='led.s1' start='0x1000060' end='0x1000070' /><slave name='sw.s1' start='0x1000070' end='0x1000080' /><slave name='jtag_uart.avalon_jtag_slave' start='0x1000080' end='0x1000088' /><slave name='sdram_ctrl.s1' start='0x2800000' end='0x3000000' /></address-map>]]></parameter>
+  <parameter name="readAddressMap"><![CDATA[<address-map><slave name='uart0.s1' start='0x1000000' end='0x1000020' /><slave name='timer.s1' start='0x1000020' end='0x1000040' /><slave name='hex3.s1' start='0x1000040' end='0x1000050' /><slave name='hex2.s1' start='0x1000050' end='0x1000060' /><slave name='hex1.s1' start='0x1000060' end='0x1000070' /><slave name='hex0.s1' start='0x1000070' end='0x1000080' /><slave name='button2.s1' start='0x1000080' end='0x1000090' /><slave name='button1.s1' start='0x1000090' end='0x10000A0' /><slave name='led.s1' start='0x10000A0' end='0x10000B0' /><slave name='sw.s1' start='0x10000B0' end='0x10000C0' /><slave name='jtag_uart.avalon_jtag_slave' start='0x10000C0' end='0x10000C8' /><slave name='sdram_ctrl.s1' start='0x2800000' end='0x3000000' /></address-map>]]></parameter>
   <parameter name="readSlaveAddressWidthMax" value="26" />
   <parameter name="readSlaveDataWidthMax" value="32" />
-  <parameter name="writeAddressMap"><![CDATA[<address-map><slave name='uart0.s1' start='0x1000000' end='0x1000020' /><slave name='timer.s1' start='0x1000020' end='0x1000040' /><slave name='button2.s1' start='0x1000040' end='0x1000050' /><slave name='button1.s1' start='0x1000050' end='0x1000060' /><slave name='led.s1' start='0x1000060' end='0x1000070' /><slave name='sw.s1' start='0x1000070' end='0x1000080' /><slave name='jtag_uart.avalon_jtag_slave' start='0x1000080' end='0x1000088' /><slave name='sdram_ctrl.s1' start='0x2800000' end='0x3000000' /></address-map>]]></parameter>
+  <parameter name="writeAddressMap"><![CDATA[<address-map><slave name='uart0.s1' start='0x1000000' end='0x1000020' /><slave name='timer.s1' start='0x1000020' end='0x1000040' /><slave name='hex3.s1' start='0x1000040' end='0x1000050' /><slave name='hex2.s1' start='0x1000050' end='0x1000060' /><slave name='hex1.s1' start='0x1000060' end='0x1000070' /><slave name='hex0.s1' start='0x1000070' end='0x1000080' /><slave name='button2.s1' start='0x1000080' end='0x1000090' /><slave name='button1.s1' start='0x1000090' end='0x10000A0' /><slave name='led.s1' start='0x10000A0' end='0x10000B0' /><slave name='sw.s1' start='0x10000B0' end='0x10000C0' /><slave name='jtag_uart.avalon_jtag_slave' start='0x10000C0' end='0x10000C8' /><slave name='sdram_ctrl.s1' start='0x2800000' end='0x3000000' /></address-map>]]></parameter>
   <parameter name="writeSlaveAddressWidthMax" value="26" />
   <parameter name="writeSlaveDataWidthMax" value="32" />
  </module>
@@ -756,7 +840,7 @@
    name="button2">
   <parameter name="bitClearingEdgeCapReg" value="false" />
   <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
+  <parameter name="captureEdge" value="true" />
   <parameter name="direction" value="Input" />
   <parameter name="edgeType" value="RISING" />
   <parameter name="generateIRQ" value="false" />
@@ -765,6 +849,78 @@
   <parameter name="simDoTestBenchWiring" value="false" />
   <parameter name="simDrivenValue" value="0" />
   <parameter name="width" value="1" />
+  <parameter name="clockRate" value="133333328" />
+ </module>
+ <module
+   kind="altera_avalon_pio"
+   version="13.0.1.99.2"
+   enabled="1"
+   name="hex0">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="8" />
+  <parameter name="clockRate" value="133333328" />
+ </module>
+ <module
+   kind="altera_avalon_pio"
+   version="13.0.1.99.2"
+   enabled="1"
+   name="hex1">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="8" />
+  <parameter name="clockRate" value="133333328" />
+ </module>
+ <module
+   kind="altera_avalon_pio"
+   version="13.0.1.99.2"
+   enabled="1"
+   name="hex2">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="8" />
+  <parameter name="clockRate" value="133333328" />
+ </module>
+ <module
+   kind="altera_avalon_pio"
+   version="13.0.1.99.2"
+   enabled="1"
+   name="hex3">
+  <parameter name="bitClearingEdgeCapReg" value="false" />
+  <parameter name="bitModifyingOutReg" value="false" />
+  <parameter name="captureEdge" value="false" />
+  <parameter name="direction" value="Output" />
+  <parameter name="edgeType" value="RISING" />
+  <parameter name="generateIRQ" value="false" />
+  <parameter name="irqType" value="LEVEL" />
+  <parameter name="resetValue" value="0" />
+  <parameter name="simDoTestBenchWiring" value="false" />
+  <parameter name="simDrivenValue" value="0" />
+  <parameter name="width" value="8" />
   <parameter name="clockRate" value="133333328" />
  </module>
  <connection
@@ -941,7 +1097,7 @@
    start="APB.m0"
    end="jtag_uart.avalon_jtag_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0080" />
+  <parameter name="baseAddress" value="0x00c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1000,12 +1156,12 @@
    end="nios2cpu.reset_n" />
  <connection kind="avalon" version="13.0" start="APB.m0" end="sw.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0070" />
+  <parameter name="baseAddress" value="0x00b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection kind="avalon" version="13.0" start="APB.m0" end="led.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0060" />
+  <parameter name="baseAddress" value="0x00a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1031,7 +1187,7 @@
  </connection>
  <connection kind="avalon" version="13.0" start="APB.m0" end="button1.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0050" />
+  <parameter name="baseAddress" value="0x0090" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1047,7 +1203,7 @@
    end="button1.reset" />
  <connection kind="avalon" version="13.0" start="APB.m0" end="button2.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0040" />
+  <parameter name="baseAddress" value="0x0080" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -1061,6 +1217,70 @@
    version="13.0"
    start="nios2cpu.jtag_debug_module_reset"
    end="button2.reset" />
+ <connection kind="avalon" version="13.0" start="APB.m0" end="hex0.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0070" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection kind="avalon" version="13.0" start="APB.m0" end="hex1.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0060" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection kind="avalon" version="13.0" start="APB.m0" end="hex2.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0050" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection kind="avalon" version="13.0" start="APB.m0" end="hex3.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0040" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="reset"
+   version="13.0"
+   start="nios2cpu.jtag_debug_module_reset"
+   end="hex0.reset" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="nios2cpu.jtag_debug_module_reset"
+   end="hex1.reset" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="nios2cpu.jtag_debug_module_reset"
+   end="hex2.reset" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="nios2cpu.jtag_debug_module_reset"
+   end="hex3.reset" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="clk_50m.clk_reset"
+   end="hex3.reset" />
+ <connection kind="clock" version="13.0" start="syspll.c0" end="hex3.clk" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="clk_50m.clk_reset"
+   end="hex2.reset" />
+ <connection kind="clock" version="13.0" start="syspll.c0" end="hex2.clk" />
+ <connection kind="clock" version="13.0" start="syspll.c0" end="hex1.clk" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="clk_50m.clk_reset"
+   end="hex1.reset" />
+ <connection kind="clock" version="13.0" start="syspll.c0" end="hex0.clk" />
+ <connection
+   kind="reset"
+   version="13.0"
+   start="clk_50m.clk_reset"
+   end="hex0.reset" />
  <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
  <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />
 </system>
