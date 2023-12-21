@@ -1,5 +1,5 @@
 Flow report for DE0_TOP
-Thu Dec 21 04:05:10 2023
+Thu Dec 21 15:53:25 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,15 +40,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Thu Dec 21 04:05:04 2023            ;
+; Flow Status                        ; Successful - Thu Dec 21 15:53:16 2023            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; DE0_TOP                                          ;
 ; Top-level Entity Name              ; DE0_TOP                                          ;
 ; Family                             ; Cyclone III                                      ;
 ; Device                             ; EP3C16F484C6                                     ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 4,595 / 15,408 ( 30 % )                          ;
-;     Total combinational functions  ; 4,133 / 15,408 ( 27 % )                          ;
+; Total logic elements               ; 4,591 / 15,408 ( 30 % )                          ;
+;     Total combinational functions  ; 4,135 / 15,408 ( 27 % )                          ;
 ;     Dedicated logic registers      ; 2,706 / 15,408 ( 18 % )                          ;
 ; Total registers                    ; 2774                                             ;
 ; Total pins                         ; 252 / 347 ( 73 % )                               ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/21/2023 04:04:18 ;
+; Start date & time ; 12/21/2023 15:51:55 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; DE0_TOP             ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+----------------------------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                                    ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 247207018346548.170310265819040                          ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 259630333977125.170314511512752                          ; --            ; --          ; --         ;
 ; ENABLE_ADVANCED_IO_TIMING           ; On                                                       ; --            ; --          ; --         ;
 ; MISC_FILE                           ; D:/TERASIC_TEST/DE0/DE0_TOP/DE0_TOP.dpf                  ; --            ; --          ; --         ;
 ; MISC_FILE                           ; E:/DE0/DE0_TOP/DE0_TOP.dpf                               ; --            ; --          ; --         ;
@@ -95,11 +95,11 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:22     ; 1.0                     ; 4819 MB             ; 00:00:07                           ;
-; Fitter                    ; 00:00:19     ; 1.6                     ; 5501 MB             ; 00:00:07                           ;
-; Assembler                 ; 00:00:01     ; 1.0                     ; 4570 MB             ; 00:00:00                           ;
-; TimeQuest Timing Analyzer ; 00:00:05     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:47     ; --                      ; --                  ; 00:00:15                           ;
+; Analysis & Synthesis      ; 00:00:40     ; 1.0                     ; 4802 MB             ; 00:00:35                           ;
+; Fitter                    ; 00:00:33     ; 1.2                     ; 5191 MB             ; 00:00:34                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 4558 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:07     ; 1.0                     ; 4690 MB             ; 00:00:06                           ;
+; Total                     ; 00:01:23     ; --                      ; --                  ; 00:01:17                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -108,10 +108,10 @@ applicable agreement for further details.
 +---------------------------+------------------+-----------+------------+----------------+
 ; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
 +---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; DESKTOP-EFMUB4E  ; Windows 7 ; 6.2        ; x86_64         ;
-; Fitter                    ; DESKTOP-EFMUB4E  ; Windows 7 ; 6.2        ; x86_64         ;
-; Assembler                 ; DESKTOP-EFMUB4E  ; Windows 7 ; 6.2        ; x86_64         ;
-; TimeQuest Timing Analyzer ; DESKTOP-EFMUB4E  ; Windows 7 ; 6.2        ; x86_64         ;
+; Analysis & Synthesis      ; LAPTOP-TD0SCC2T  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; LAPTOP-TD0SCC2T  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; LAPTOP-TD0SCC2T  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; LAPTOP-TD0SCC2T  ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 

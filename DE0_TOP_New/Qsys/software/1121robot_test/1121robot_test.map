@@ -1,0 +1,1225 @@
+Archive member included because of file (symbol)
+
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              obj/default/count_binary.o (__mulsi3)
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+                              obj/default/count_binary.o (srand)
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                              d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o) (_impure_ptr)
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+                              d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o) (__muldi3)
+../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+                              ../1121robot_test_bsp//obj/HAL/src/crt0.o (alt_load)
+../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+                              ../1121robot_test_bsp//obj/HAL/src/crt0.o (alt_main)
+../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+                              obj/default/count_binary.o (usleep)
+../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_avalon_dma_launch_bidir)
+../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_alarm_start)
+../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o) (alt_busy_sleep)
+../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o) (close)
+../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o) (alt_dma_rxchan_list)
+../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o) (alt_dma_txchan_list)
+../1121robot_test_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+../1121robot_test_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+../1121robot_test_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o) (alt_find_dev)
+../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o) (alt_ic_isr_register)
+../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_handler)
+../1121robot_test_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+../1121robot_test_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (_alt_tick_rate)
+../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o) (exit)
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o) (errno)
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o) (memcpy)
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                              d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o) (__register_exitproc)
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                              d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (__call_exitprocs)
+d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                              ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o) (__udivsi3)
+../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+                              d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+_atexit0            0x190             d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x02800000         0x00000020
+sdram_ctrl       0x02800020         0x007fffe0
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ../1121robot_test_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/count_binary.o
+LOAD d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libm.a
+LOAD d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+START GROUP
+LOAD d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a
+LOAD d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+LOAD ../1121robot_test_bsp/\libhal_bsp.a
+END GROUP
+LOAD d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a
+                0x02800000                __alt_mem_sdram_ctrl = 0x2800000
+
+.entry          0x02800000       0x20
+ *(.entry)
+ .entry         0x02800000       0x20 ../1121robot_test_bsp//obj/HAL/src/crt0.o
+                0x02800000                __reset
+
+.exceptions     0x02800020      0x194
+                0x02800020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x02800020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x02800020        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x02800020                alt_irq_entry
+ .exceptions.entry.label
+                0x02800020        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x02800020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x02800020       0x54 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x02800074       0x10 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x02800084        0x4 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x02800088        0x4 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x0280008c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x0280008c        0x8 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x02800094        0x4 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x02800098        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x02800098        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x02800098       0x54 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x028000ec       0xc8 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x028000ec                alt_irq_handler
+                0x028001b4                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x02800020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x028001b4     0x3c0c
+                0x028001b4                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x028001b4       0x3c ../1121robot_test_bsp//obj/HAL/src/crt0.o
+                0x028001b4                _start
+ .text          0x028001f0      0x640 obj/default/count_binary.o
+                0x028001f0                main
+                0x028002b8                location1
+                0x02800744                he0
+ .text          0x02800830       0x38 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x02800830                __mulsi3
+ .text          0x02800868       0x94 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+                0x02800868                srand
+                0x02800884                rand
+ .text          0x028008fc        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .text          0x028008fc      0x124 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+                0x028008fc                __muldi3
+ .text          0x02800a20       0xec ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+                0x02800a20                alt_load
+ .text          0x02800b0c       0x6c ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+                0x02800b0c                alt_main
+ .text          0x02800b78       0x30 ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+                0x02800b78                usleep
+ .text          0x02800ba8       0xd4 ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x02800ba8                alt_irq_init
+                0x02800bdc                alt_sys_init
+ .text          0x02800c7c      0xcac ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+                0x02800c7c                alt_avalon_dma_launch_bidir
+                0x02801290                alt_avalon_dma_tx_ioctl
+                0x028012d4                alt_avalon_dma_rx_ioctl
+                0x02801318                alt_avalon_dma_prepare
+                0x0280146c                alt_avalon_dma_space
+                0x028014ec                alt_avalon_dma_send
+                0x02801808                alt_avalon_dma_init
+ .text          0x02801928      0x148 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x02801928                altera_avalon_jtag_uart_read_fd
+                0x02801980                altera_avalon_jtag_uart_write_fd
+                0x028019d8                altera_avalon_jtag_uart_close_fd
+                0x02801a20                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x02801a70      0x40c ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x02801a70                altera_avalon_jtag_uart_init
+                0x02801e08                altera_avalon_jtag_uart_close
+ .text          0x02801e7c       0xf4 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x02801e7c                altera_avalon_jtag_uart_ioctl
+ .text          0x02801f70      0x224 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x02801f70                altera_avalon_jtag_uart_read
+ .text          0x02802194      0x240 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x02802194                altera_avalon_jtag_uart_write
+ .text          0x028023d4      0x154 ../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                0x028023d4                alt_alarm_start
+ .text          0x02802528      0x15c ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x02802528                alt_busy_sleep
+ .text          0x02802684      0x160 ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+                0x02802684                close
+ .text          0x028027e4       0x1c ../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x028027e4                alt_dcache_flush_all
+ .text          0x02802800       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x0280282c      0x114 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0280282c                alt_dev_llist_insert
+ .text          0x02802940       0xb8 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+                0x02802940                alt_dma_rxchan_open
+ .text          0x028029f8       0xb8 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+                0x028029f8                alt_dma_txchan_open
+ .text          0x02802ab0       0x64 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x02802ab0                _do_ctors
+ .text          0x02802b14       0x64 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x02802b14                _do_dtors
+ .text          0x02802b78        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x02802b78       0x94 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x02802b78                alt_find_dev
+ .text          0x02802c0c       0x1c ../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x02802c0c                alt_icache_flush_all
+ .text          0x02802c28      0x1d4 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+                0x02802c28                alt_ic_isr_register
+                0x02802c78                alt_ic_irq_enable
+                0x02802d14                alt_ic_irq_disable
+                0x02802db4                alt_ic_irq_enabled
+ .text          0x02802dfc       0xf8 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x02802dfc                alt_iic_isr_register
+ .text          0x02802ef4      0x150 ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x02802fcc                alt_io_redirect
+ .text          0x02803044        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x02803044        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x02803044        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x02803044      0x2e4 ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+                0x0280313c                open
+ .text          0x02803328       0x78 ../1121robot_test_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x02803328                alt_release_fd
+ .text          0x028033a0      0x1a4 ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+                0x028033a0                alt_alarm_stop
+                0x02803438                alt_tick
+ .text          0x02803544       0x20 ../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x02803544                altera_nios2_qsys_irq_init
+ .text          0x02803564        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x02803564      0x120 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x02803564                alt_find_file
+ .text          0x02803684       0xd0 ../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x02803684                alt_get_fd
+ .text          0x02803754       0x14 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                0x02803754                atexit
+ .text          0x02803768       0x38 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                0x02803768                exit
+ .text          0x028037a0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .text          0x028037a0       0x74 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                0x028037a0                memcmp
+ .text          0x02803814       0xa0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                0x02803814                memcpy
+ .text          0x028038b4       0x74 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                0x028038b4                strlen
+ .text          0x02803928      0x134 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                0x02803928                __register_exitproc
+ .text          0x02803a5c      0x1b4 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                0x02803a60                __call_exitprocs
+ .text          0x02803c10      0x14c d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                0x02803c8c                __divsi3
+                0x02803cec                __modsi3
+                0x02803d4c                __udivsi3
+                0x02803d54                __umodsi3
+ .text          0x02803d5c       0x60 ../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+                0x02803d9c                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                0x02803dbc                PROVIDE (__etext, ABSOLUTE (.))
+                0x02803dbc                PROVIDE (_etext, ABSOLUTE (.))
+                0x02803dbc                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x02803dbc                . = ALIGN (0x4)
+                0x02803dbc                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x02803dbc                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x02803dbc                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x02803dbc                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x02803dbc                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x02803dbc                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table)
+ *(.dynamic)
+                0x02803dbc                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+ .ctors.65535   0x02803dbc        0x4 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                0x02803dc0                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x02803dc0                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x02803dc0                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x02803dc0                . = ALIGN (0x4)
+
+.rodata         0x02803dc0       0x3c
+                0x02803dc0                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x02803dc0                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x02803dc0        0x4 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .rodata        0x02803dc4       0x10 ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+ .rodata        0x02803dd4       0x1c ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .rodata        0x02803df0        0xc ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x02803dfc                . = ALIGN (0x4)
+                0x02803dfc                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x02803dc0                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x02803dfc     0x1ccc load address 0x02805ac8
+                0x02803dfc                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x02803dfc                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x02803dfc        0x0 ../1121robot_test_bsp//obj/HAL/src/crt0.o
+ .data          0x02803dfc      0x5ac obj/default/count_binary.o
+                0x02803dfc                maze1
+                0x02803fe0                maze2
+                0x028041c4                maze3
+ .data          0x028043a8        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .data          0x028043a8        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+ .data          0x028043a8      0x400 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .data          0x028047a8        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+ .data          0x028047a8        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x028047a8        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x028047a8        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+ .data          0x028047a8     0x113c ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x028058e4        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+ .data          0x028058e4        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x028058e4        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x028058e4        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x028058e4        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x028058e4        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x028058e4        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .data          0x028058e4        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x028058e4        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x028058e4        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x028058e4      0x1a8 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+                0x028058e4                alt_dev_null
+                0x0280590c                alt_fd_list
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x02805a8c        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .data          0x02805a8c        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .data          0x02805a8c        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .data          0x02805a8c        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .data          0x02805a8c        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .data          0x02805a8c        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .data          0x02805a8c        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .data          0x02805a8c        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .data          0x02805a8c        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .data          0x02805a8c        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+                0x0280da8c                _gp = ABSOLUTE ((. + 0x8000))
+                0x0280da8c                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x02805a8c        0x8 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                0x02805a8c                _impure_ptr
+                0x02805a90                _global_impure_ptr
+ .sdata         0x02805a94       0x14 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+                0x02805a94                alt_fs_list
+                0x02805a9c                alt_dev_list
+                0x02805aa4                alt_max_fd
+ .sdata         0x02805aa8        0x8 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+                0x02805aa8                alt_dma_rxchan_list
+ .sdata         0x02805ab0        0x8 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+                0x02805ab0                alt_dma_txchan_list
+ .sdata         0x02805ab8        0x4 ../1121robot_test_bsp/\libhal_bsp.a(alt_errno.o)
+                0x02805ab8                alt_errno
+ .sdata         0x02805abc        0x4 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x02805abc                alt_priority_mask
+ .sdata         0x02805ac0        0x8 ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+                0x02805ac0                alt_alarm_list
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x02805ac8                . = ALIGN (0x4)
+                0x02805ac8                _edata = ABSOLUTE (.)
+                0x02805ac8                PROVIDE (edata, ABSOLUTE (.))
+                0x02805ac8                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x02805ac8                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x02807794      0x2ac
+                0x02807794                __bss_start = ABSOLUTE (.)
+                0x02807794                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x02807794                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x02807794        0xc ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+                0x02807794                alt_argc
+                0x02807798                alt_argv
+                0x0280779c                alt_envp
+ .sbss          0x028077a0        0x4 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x028077a0                alt_irq_active
+ .sbss          0x028077a4        0x8 ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+                0x028077a4                _alt_tick_rate
+                0x028077a8                _alt_nticks
+ .sbss          0x028077ac        0x4 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                0x028077ac                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x028077b0                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x028077b0                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp//obj/HAL/src/crt0.o
+ .bss           0x028077b0        0x0 obj/default/count_binary.o
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .bss           0x028077b0        0x0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .bss           0x028077b0        0x0 ../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x028077b0      0x100 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x028077b0                alt_irq
+ COMMON         0x028078b0      0x190 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                0x028078b0                _atexit0
+                0x02807a40                . = ALIGN (0x4)
+                0x02807a40                __bss_end = ABSOLUTE (.)
+
+.sdram_ctrl     0x02807a40        0x0
+                0x02807a40                PROVIDE (_alt_partition_sdram_ctrl_start, ABSOLUTE (.))
+ *(.sdram_ctrl. sdram_ctrl.*)
+                0x02807a40                . = ALIGN (0x4)
+                0x02807a40                PROVIDE (_alt_partition_sdram_ctrl_end, ABSOLUTE (.))
+                0x02807a40                _end = ABSOLUTE (.)
+                0x02807a40                end = ABSOLUTE (.)
+                0x02807a40                __alt_stack_base = ABSOLUTE (.)
+                0x02807a40                PROVIDE (_alt_partition_sdram_ctrl_load_addr, LOADADDR (.sdram_ctrl))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x26
+ *(.comment)
+ .comment       0x00000000       0x26 obj/default/count_binary.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .comment       0x00000000       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .comment       0x00000000       0x27 ../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x638
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 ../1121robot_test_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/count_binary.o
+ .debug_aranges
+                0x00000048       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_aranges
+                0x00000068       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+ .debug_aranges
+                0x00000088       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+ .debug_aranges
+                0x000000a8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x000000c8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x000000e8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_aranges
+                0x00000108       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000128       0x20 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+ .debug_aranges
+                0x00000148       0x20 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x00000168       0x20 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x00000188       0x20 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x000001a8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x000001c8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x000001e8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x00000208       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x00000228       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000248       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000268       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x00000288       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x000002a8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+ .debug_aranges
+                0x000002c8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+ .debug_aranges
+                0x000002e8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x00000308       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x00000328       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x00000348       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000368       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000388       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x000003a8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x000003c8       0x30 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x000003f8       0x28 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x00000420       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x00000440       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000460       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x00000480       0x20 ../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x000004a0       0x38 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x000004d8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x000004f8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x00000518       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x00000538       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x00000558       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x00000578       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x00000598       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x000005b8       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x000005d8       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x000005f8       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x00000618       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+                0x00000000      0xa0d
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x4f obj/default/count_binary.o
+ .debug_pubnames
+                0x0000004f       0x1f d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_pubnames
+                0x0000006e       0x25 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+ .debug_pubnames
+                0x00000093       0x39 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_pubnames
+                0x000000cc       0x1f d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+ .debug_pubnames
+                0x000000eb       0x1f ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_pubnames
+                0x0000010a       0x46 ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_pubnames
+                0x00000150       0x1d ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_pubnames
+                0x0000016d       0x34 ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_pubnames
+                0x000001a1       0xce ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+ .debug_pubnames
+                0x0000026f       0xa5 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_pubnames
+                0x00000314       0x55 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_pubnames
+                0x00000369       0x34 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_pubnames
+                0x0000039d       0x33 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_pubnames
+                0x000003d0       0x34 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_pubnames
+                0x00000404       0x26 ../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_pubnames
+                0x0000042a       0x25 ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_pubnames
+                0x0000044f       0x1c ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_pubnames
+                0x0000046b       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_pubnames
+                0x00000496       0x63 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_pubnames
+                0x000004f9       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_pubnames
+                0x00000524       0x42 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+ .debug_pubnames
+                0x00000566       0x42 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+ .debug_pubnames
+                0x000005a8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_pubnames
+                0x000005c8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_pubnames
+                0x000005e8       0x20 ../1121robot_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_pubnames
+                0x00000608       0x23 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_pubnames
+                0x0000062b       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_pubnames
+                0x00000656       0x6e ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_pubnames
+                0x000006c4       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_pubnames
+                0x000006ef       0x26 ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_pubnames
+                0x00000715       0x32 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_pubnames
+                0x00000747       0x3b ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_pubnames
+                0x00000782       0x1b ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_pubnames
+                0x0000079d       0x25 ../1121robot_test_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_pubnames
+                0x000007c2       0x68 ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_pubnames
+                0x0000082a       0x31 ../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_pubnames
+                0x0000085b       0x24 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_pubnames
+                0x0000087f       0x21 ../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_pubnames
+                0x000008a0       0x2a d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_pubnames
+                0x000008ca       0x1b d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_pubnames
+                0x000008e5       0x1c d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_pubnames
+                0x00000901       0x1d d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_pubnames
+                0x0000091e       0x1d d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_pubnames
+                0x0000093b       0x1d d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_pubnames
+                0x00000958       0x2a d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_pubnames
+                0x00000982       0x27 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_pubnames
+                0x000009a9       0x48 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_pubnames
+                0x000009f1       0x1c ../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_info     0x00000000     0xc8db
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x73 ../1121robot_test_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x00000073      0x2ab obj/default/count_binary.o
+ .debug_info    0x0000031e       0xf3 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_info    0x00000411      0x951 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+ .debug_info    0x00000d62      0x93d d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_info    0x0000169f      0x210 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+ .debug_info    0x000018af      0x285 ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x00001b34      0x21d ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x00001d51      0x160 ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_info    0x00001eb1      0xc0f ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00002ac0      0xd9d ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+ .debug_info    0x0000385d      0x7d1 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x0000402e      0x5f9 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x00004627      0x43b ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x00004a62      0x53e ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x00004fa0      0x536 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x000054d6      0x43a ../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x00005910      0x1a3 ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x00005ab3      0x45f ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00005f12      0x154 ../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00006066      0x677 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x000066dd      0x2af ../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x0000698c      0x3a9 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+ .debug_info    0x00006d35      0x3c3 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+ .debug_info    0x000070f8      0x107 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x000071ff      0x106 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x00007305      0x15c ../1121robot_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x00007461      0x410 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00007871      0x154 ../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x000079c5      0x48b ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x00007e50      0x30c ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x0000815c      0x68d ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x000087e9       0x7c ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x00008865      0x26d ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x00008ad2      0x15f ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x00008c31      0x51d ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x0000914e      0x3ea ../1121robot_test_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x00009538      0x3f6 ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x0000992e      0x15b ../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x00009a89       0x82 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x00009b0b      0x417 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x00009f22      0x458 ../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x0000a37a      0x181 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_info    0x0000a4fb      0x93f d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_info    0x0000ae3a       0x8c d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_info    0x0000aec6      0x115 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_info    0x0000afdb      0x106 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_info    0x0000b0e1       0xdb d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_info    0x0000b1bc      0x99c d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_info    0x0000bb58      0x9e2 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000c53a      0x21c d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000c756      0x185 ../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x00000000     0x2d19
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 ../1121robot_test_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000012       0xbb obj/default/count_binary.o
+ .debug_abbrev  0x000000cd       0x7b d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_abbrev  0x00000148      0x185 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+ .debug_abbrev  0x000002cd      0x157 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x00000424       0xfb d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+ .debug_abbrev  0x0000051f       0x88 ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x000005a7       0xb7 ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000065e       0x5d ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_abbrev  0x000006bb      0x161 ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000081c      0x242 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+ .debug_abbrev  0x00000a5e       0xf7 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x00000b55      0x17c ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x00000cd1       0xf0 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x00000dc1      0x191 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x00000f52      0x18d ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x000010df      0x172 ../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x00001251       0x6c ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x000012bd       0xfb ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x000013b8       0x3f ../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x000013f7       0xc7 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x000014be       0xf6 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x000015b4       0xfe ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+ .debug_abbrev  0x000016b2      0x103 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+ .debug_abbrev  0x000017b5       0x76 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x0000182b       0x76 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x000018a1       0x5e ../1121robot_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x000018ff       0xcf ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x000019ce       0x3f ../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00001a0d      0x134 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x00001b41      0x14e ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x00001c8f       0xf0 ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x00001d7f       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x00001d91      0x10c ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x00001e9d       0x44 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x00001ee1      0x112 ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x00001ff3       0xc1 ../1121robot_test_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x000020b4      0x150 ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x00002204       0x3f ../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x00002243       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x00002255       0xcf ../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x00002324       0xfb ../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x0000241f       0xb7 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x000024d6      0x16e d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x00002644       0x3b d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000267f       0x7c d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x000026fb       0xb5 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x000027b0       0x8b d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000283b      0x1ae d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x000029e9      0x1de d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x00002bc7       0xe0 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x00002ca7       0x72 ../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x00000000     0x7803
+ *(.debug_line)
+ .debug_line    0x00000000       0x66 ../1121robot_test_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000066      0x464 obj/default/count_binary.o
+ .debug_line    0x000004ca      0x11a d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_line    0x000005e4      0x240 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+ .debug_line    0x00000824      0x230 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+ .debug_line    0x00000a54      0x14f d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+ .debug_line    0x00000ba3      0x209 ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000dac      0x2bc ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x00001068      0x1ed ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_line    0x00001255      0x2c8 ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000151d      0x7c5 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+ .debug_line    0x00001ce2      0x210 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00001ef2      0x49d ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x0000238f      0x309 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x00002698      0x3e9 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00002a81      0x3f7 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x00002e78      0x2ce ../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x00003146      0x247 ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x0000338d      0x28b ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x00003618      0x1a7 ../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x000037bf      0x246 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x00003a05      0x24c ../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x00003c51      0x252 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+ .debug_line    0x00003ea3      0x252 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+ .debug_line    0x000040f5       0x83 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x00004178       0x83 ../1121robot_test_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x000041fb      0x19c ../1121robot_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00004397      0x25d ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x000045f4      0x1a7 ../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000479b      0x2ba ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x00004a55      0x23b ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x00004c90      0x2a6 ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x00004f36       0x6b ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x00004fa1      0x23a ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x000051db       0x72 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000524d      0x2f1 ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x0000553e       0xed ../1121robot_test_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000562b      0x2ce ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x000058f9      0x1c0 ../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x00005ab9       0xab ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x00005b64      0x26e ../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x00005dd2      0x289 ../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x0000605b      0x203 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_line    0x0000625e      0x23b d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_line    0x00006499      0x1e2 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+ .debug_line    0x0000667b      0x2a2 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_line    0x0000691d      0x1af d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_line    0x00006acc      0x270 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_line    0x00006d3c      0x316 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_line    0x00007052      0x36a d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x000073bc      0x24f d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000760b      0x1f8 ../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x00000000      0xbf4
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x68 obj/default/count_binary.o
+ .debug_frame   0x00000068       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_frame   0x00000088       0x3c d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+ .debug_frame   0x000000c4       0x40 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+ .debug_frame   0x00000104       0x48 ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000014c       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x00000178       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_frame   0x000001a4       0x64 ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000208      0x17c ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+ .debug_frame   0x00000384       0x80 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x00000404       0x80 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x00000484       0x2c ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x000004b0       0x2c ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x000004dc       0x2c ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000508       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x00000534       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x00000560       0x48 ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x000005a8       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x000005d4       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000600       0x48 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x00000648       0x48 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+ .debug_frame   0x00000690       0x48 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+ .debug_frame   0x000006d8       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x00000704       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x00000730       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x0000075c       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x00000788       0x80 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x00000808       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x00000834       0x4c ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x00000880       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x000008ac       0x68 ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x00000914       0x30 ../1121robot_test_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x00000944       0x48 ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x0000098c       0x2c ../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x000009b8       0x2c ../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x000009e4       0x30 ../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x00000a14       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000a34       0x28 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_frame   0x00000a5c       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x00000a7c       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00000a9c       0x20 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_frame   0x00000abc       0x34 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00000af0       0x4c d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000b3c       0x70 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x00000bac       0x48 ../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x00000000      0xd5c
+ *(.debug_str)
+ .debug_str     0x00000000       0x12 obj/default/count_binary.o
+ .debug_str     0x00000012      0x128 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                0x175 (size before relaxing)
+ .debug_str     0x0000013a      0x462 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+                                0x519 (size before relaxing)
+ .debug_str     0x0000059c       0xf2 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-impure.o)
+                                0x528 (size before relaxing)
+ .debug_str     0x0000068e       0x6e d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+                                0x1ac (size before relaxing)
+ .debug_str     0x000006fc       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_str     0x0000070e       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_str     0x00000720       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_str     0x00000732       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_str     0x00000744       0x53 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+ .debug_str     0x00000797       0x12 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_str     0x000007a9       0x1a ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_str     0x000007c3       0x12 ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_str     0x000007d5       0x1a ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_str     0x000007ef       0x1a ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_str     0x00000809       0x23 ../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_str     0x0000082c       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_str     0x0000083e       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_str     0x00000850       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_str     0x00000862       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_str     0x00000874       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_str     0x00000886       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+ .debug_str     0x00000898       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+ .debug_str     0x000008aa       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_str     0x000008bc       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_str     0x000008ce       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_str     0x000008e0       0x18 ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_str     0x000008f8       0x1a ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_str     0x00000912       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_str     0x00000924       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_str     0x00000936       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_str     0x00000948       0x1a ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_str     0x00000962       0x12 ../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_str     0x00000974       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_str     0x00000986       0x12 ../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_str     0x00000998       0x3e d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+                                0x1cd (size before relaxing)
+ .debug_str     0x000009d6       0x41 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+                                0x51a (size before relaxing)
+ .debug_str     0x00000a17       0x40 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-int_errno.o)
+                                0x171 (size before relaxing)
+ .debug_str     0x00000a57       0xe3 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+                                0x178 (size before relaxing)
+ .debug_str     0x00000b3a       0x6c d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+                                0x136 (size before relaxing)
+ .debug_str     0x00000ba6       0x52 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+                                0x18b (size before relaxing)
+ .debug_str     0x00000bf8       0x54 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+                                0x532 (size before relaxing)
+ .debug_str     0x00000c4c       0x7e d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+                                0x55c (size before relaxing)
+ .debug_str     0x00000cca       0x76 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                                0x1b4 (size before relaxing)
+ .debug_str     0x00000d40       0x1c ../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_loc      0x00000000     0x145e
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x82 obj/default/count_binary.o
+ .debug_loc     0x00000082       0x4f d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-mul.o)
+ .debug_loc     0x000000d1       0x42 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-rand.o)
+ .debug_loc     0x00000113      0x103 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+ .debug_loc     0x00000216       0x56 ../1121robot_test_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x0000026c       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_loc     0x00000297       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_loc     0x000002c2       0x81 ../1121robot_test_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x00000343      0x22f ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_dma.o)
+ .debug_loc     0x00000572       0xac ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_loc     0x0000061e       0xac ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_loc     0x000006ca       0x2b ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_loc     0x000006f5       0x2b ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_loc     0x00000720       0x2b ../1121robot_test_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x0000074b       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_loc     0x00000776       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_loc     0x000007a1       0x56 ../1121robot_test_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_loc     0x000007f7       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x00000822       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_loc     0x0000084d       0x56 ../1121robot_test_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loc     0x000008a3       0x56 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_rxchan_open.o)
+ .debug_loc     0x000008f9       0x56 ../1121robot_test_bsp/\libhal_bsp.a(alt_dma_txchan_open.o)
+ .debug_loc     0x0000094f       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_loc     0x0000097a       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_loc     0x000009a5       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x000009d0       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_loc     0x000009fb       0xac ../1121robot_test_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_loc     0x00000aa7       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_loc     0x00000ad2       0x56 ../1121robot_test_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_loc     0x00000b28       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_loc     0x00000b53       0x81 ../1121robot_test_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_loc     0x00000bd4       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_loc     0x00000bff       0x56 ../1121robot_test_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_loc     0x00000c55       0x2b ../1121robot_test_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_loc     0x00000c80       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_loc     0x00000cab       0x2b ../1121robot_test_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_loc     0x00000cd6       0x1e d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-atexit.o)
+ .debug_loc     0x00000cf4       0x3d d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-exit.o)
+ .debug_loc     0x00000d31      0x114 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x00000e45       0xca d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x00000f0f       0x3c d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-strlen.o)
+ .debug_loc     0x00000f4b      0x120 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__atexit.o)
+ .debug_loc     0x0000106b      0x1cb d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x00001236      0x1d2 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x00001408       0x56 ../1121robot_test_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x40
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x10 ../1121robot_test_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x00000010       0x30 ../1121robot_test_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x03000000                __alt_data_end = 0x3000000
+                0x03000000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x02807a40                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x02807a40                PROVIDE (__alt_heap_start, end)
+                0x03000000                PROVIDE (__alt_heap_limit, 0x3000000)
+OUTPUT(1121robot_test.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000      0x118
+ .debug_ranges  0x00000000       0x20 ../1121robot_test_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x88 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/mno-hw-mul\libgcc.a(_muldi3.o)
+ .debug_ranges  0x000000a8       0x28 ../1121robot_test_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x000000d0       0x30 ../1121robot_test_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x00000100       0x18 d:/alalala/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib/mno-hw-mul\libc.a(lib_a-__call_atexit.o)
