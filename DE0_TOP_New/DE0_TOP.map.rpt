@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DE0_TOP
-Thu Dec 21 15:52:36 2023
+Sat Dec 23 22:13:53 2023
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -404,13 +404,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Dec 21 15:52:36 2023            ;
+; Analysis & Synthesis Status        ; Successful - Sat Dec 23 22:13:53 2023            ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; DE0_TOP                                          ;
 ; Top-level Entity Name              ; DE0_TOP                                          ;
 ; Family                             ; Cyclone III                                      ;
-; Total logic elements               ; 4,931                                            ;
-;     Total combinational functions  ; 4,123                                            ;
+; Total logic elements               ; 4,929                                            ;
+;     Total combinational functions  ; 4,121                                            ;
 ;     Dedicated logic registers      ; 2,748                                            ;
 ; Total registers                    ; 2748                                             ;
 ; Total pins                         ; 252                                              ;
@@ -513,122 +513,121 @@ applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
+; Number detected on machine ; 6           ;
+; Maximum allowed            ; 6           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 2           ;
+; Maximum used               ; 6           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ; < 0.1%      ;
-;     Processors 3-4         ;   0.0%      ;
+;     Processors 2-6         ; < 0.1%      ;
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                          ;
-+----------------------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path             ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                    ; Library ;
-+----------------------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------+---------+
-; de0_top.v                                    ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/de0_top.v                                                                      ;         ;
-; button_debouncer.v                           ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/button_debouncer.v                                                             ;         ;
-; de0qsys.v                                    ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/de0qsys.v                                               ;         ;
-; de0qsys_syspll.v                             ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_syspll.v                             ;         ;
-; de0qsys_nios2cpu.v                           ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_nios2cpu.v                           ;         ;
-; de0qsys_nios2cpu_test_bench.v                ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_nios2cpu_test_bench.v                ;         ;
-; altsyncram.tdf                               ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/altsyncram.tdf                                                       ;         ;
-; stratix_ram_block.inc                        ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/stratix_ram_block.inc                                                ;         ;
-; lpm_mux.inc                                  ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/lpm_mux.inc                                                          ;         ;
-; lpm_decode.inc                               ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/lpm_decode.inc                                                       ;         ;
-; aglobal130.inc                               ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/aglobal130.inc                                                       ;         ;
-; a_rdenreg.inc                                ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/a_rdenreg.inc                                                        ;         ;
-; altrom.inc                                   ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/altrom.inc                                                           ;         ;
-; altram.inc                                   ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/altram.inc                                                           ;         ;
-; altdpram.inc                                 ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/altdpram.inc                                                         ;         ;
-; db/altsyncram_cig1.tdf                       ; yes             ; Auto-Generated Megafunction        ; D:/de0/git1220/robot/DE0_TOP_New/db/altsyncram_cig1.tdf                                                         ;         ;
-; db/altsyncram_dig1.tdf                       ; yes             ; Auto-Generated Megafunction        ; D:/de0/git1220/robot/DE0_TOP_New/db/altsyncram_dig1.tdf                                                         ;         ;
-; altera_std_synchronizer.v                    ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/altera_std_synchronizer.v                                            ;         ;
-; db/altsyncram_gv71.tdf                       ; yes             ; Auto-Generated Megafunction        ; D:/de0/git1220/robot/DE0_TOP_New/db/altsyncram_gv71.tdf                                                         ;         ;
-; de0qsys_nios2cpu_oci_test_bench.v            ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_nios2cpu_oci_test_bench.v            ;         ;
-; de0qsys_nios2cpu_jtag_debug_module_wrapper.v ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_nios2cpu_jtag_debug_module_wrapper.v ;         ;
-; de0qsys_nios2cpu_jtag_debug_module_tck.v     ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_nios2cpu_jtag_debug_module_tck.v     ;         ;
-; de0qsys_nios2cpu_jtag_debug_module_sysclk.v  ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_nios2cpu_jtag_debug_module_sysclk.v  ;         ;
-; sld_virtual_jtag_basic.v                     ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/sld_virtual_jtag_basic.v                                             ;         ;
-; de0qsys_sdram_ctrl.v                         ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_sdram_ctrl.v                         ;         ;
-; de0qsys_dma.v                                ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_dma.v                                ;         ;
-; lpm_ram_dp.tdf                               ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/lpm_ram_dp.tdf                                                       ;         ;
-; altdpram.tdf                                 ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/altdpram.tdf                                                         ;         ;
-; memmodes.inc                                 ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/others/maxplus2/memmodes.inc                                                       ;         ;
-; a_hdffe.inc                                  ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/a_hdffe.inc                                                          ;         ;
-; alt_le_rden_reg.inc                          ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/alt_le_rden_reg.inc                                                  ;         ;
-; altsyncram.inc                               ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/altsyncram.inc                                                       ;         ;
-; db/altsyncram_oeq1.tdf                       ; yes             ; Auto-Generated Megafunction        ; D:/de0/git1220/robot/DE0_TOP_New/db/altsyncram_oeq1.tdf                                                         ;         ;
-; altera_avalon_mm_bridge.v                    ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_avalon_mm_bridge.v                    ;         ;
-; de0qsys_jtag_uart.v                          ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_jtag_uart.v                          ;         ;
-; scfifo.tdf                                   ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/scfifo.tdf                                                           ;         ;
-; a_regfifo.inc                                ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/a_regfifo.inc                                                        ;         ;
-; a_dpfifo.inc                                 ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/a_dpfifo.inc                                                         ;         ;
-; a_i2fifo.inc                                 ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/a_i2fifo.inc                                                         ;         ;
-; a_fffifo.inc                                 ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/a_fffifo.inc                                                         ;         ;
-; a_f2fifo.inc                                 ; yes             ; Megafunction                       ; d:/alalala/quartus/libraries/megafunctions/a_f2fifo.inc                                                         ;         ;
-; db/scfifo_aq21.tdf                           ; yes             ; Auto-Generated Megafunction        ; D:/de0/git1220/robot/DE0_TOP_New/db/scfifo_aq21.tdf                                                             ;         ;
-; db/a_dpfifo_h031.tdf                         ; yes             ; Auto-Generated Megafunction        ; D:/de0/git1220/robot/DE0_TOP_New/db/a_dpfifo_h031.tdf                                                           ;         ;
-; db/a_fefifo_7cf.tdf                          ; yes             ; Auto-Generated Megafunction        ; D:/de0/git1220/robot/DE0_TOP_New/db/a_fefifo_7cf.tdf                                                            ;         ;
-; db/cntr_4n7.tdf                              ; yes             ; Auto-Generated Megafunction        ; D:/de0/git1220/robot/DE0_TOP_New/db/cntr_4n7.tdf                                                                ;         ;
-; db/dpram_ek21.tdf                            ; yes             ; Auto-Generated Megafunction        ; D:/de0/git1220/robot/DE0_TOP_New/db/dpram_ek21.tdf                                                              ;         ;
-; db/altsyncram_i0m1.tdf                       ; yes             ; Auto-Generated Megafunction        ; D:/de0/git1220/robot/DE0_TOP_New/db/altsyncram_i0m1.tdf                                                         ;         ;
-; db/cntr_omb.tdf                              ; yes             ; Auto-Generated Megafunction        ; D:/de0/git1220/robot/DE0_TOP_New/db/cntr_omb.tdf                                                                ;         ;
-; alt_jtag_atlantic.v                          ; yes             ; Encrypted Megafunction             ; d:/alalala/quartus/libraries/megafunctions/alt_jtag_atlantic.v                                                  ;         ;
-; de0qsys_timer.v                              ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_timer.v                              ;         ;
-; de0qsys_uart0.v                              ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_uart0.v                              ;         ;
-; de0qsys_led.v                                ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_led.v                                ;         ;
-; de0qsys_sw.v                                 ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_sw.v                                 ;         ;
-; de0qsys_button1.v                            ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_button1.v                            ;         ;
-; de0qsys_button2.v                            ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_button2.v                            ;         ;
-; de0qsys_hex0.v                               ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_hex0.v                               ;         ;
-; altera_merlin_master_translator.sv           ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_master_translator.sv           ;         ;
-; altera_merlin_slave_translator.sv            ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_slave_translator.sv            ;         ;
-; altera_merlin_master_agent.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_master_agent.sv                ;         ;
-; altera_merlin_slave_agent.sv                 ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_slave_agent.sv                 ;         ;
-; altera_merlin_burst_uncompressor.sv          ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv          ;         ;
-; altera_avalon_sc_fifo.v                      ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_avalon_sc_fifo.v                      ;         ;
-; de0qsys_addr_router.sv                       ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_addr_router.sv                       ;         ;
-; de0qsys_addr_router_001.sv                   ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_addr_router_001.sv                   ;         ;
-; de0qsys_addr_router_002.sv                   ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_addr_router_002.sv                   ;         ;
-; de0qsys_id_router.sv                         ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_id_router.sv                         ;         ;
-; de0qsys_id_router_001.sv                     ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_id_router_001.sv                     ;         ;
-; de0qsys_id_router_003.sv                     ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_id_router_003.sv                     ;         ;
-; de0qsys_id_router_004.sv                     ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_id_router_004.sv                     ;         ;
-; de0qsys_addr_router_004.sv                   ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_addr_router_004.sv                   ;         ;
-; de0qsys_id_router_005.sv                     ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_id_router_005.sv                     ;         ;
-; altera_merlin_traffic_limiter.sv             ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_traffic_limiter.sv             ;         ;
-; altera_merlin_burst_adapter.sv               ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_burst_adapter.sv               ;         ;
-; altera_merlin_address_alignment.sv           ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_address_alignment.sv           ;         ;
-; altera_reset_controller.v                    ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_reset_controller.v                    ;         ;
-; altera_reset_synchronizer.v                  ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_reset_synchronizer.v                  ;         ;
-; de0qsys_cmd_xbar_demux.sv                    ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_demux.sv                    ;         ;
-; de0qsys_cmd_xbar_demux_001.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_demux_001.sv                ;         ;
-; de0qsys_cmd_xbar_demux_002.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_demux_002.sv                ;         ;
-; de0qsys_cmd_xbar_demux_003.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_demux_003.sv                ;         ;
-; de0qsys_cmd_xbar_mux.sv                      ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_mux.sv                      ;         ;
-; altera_merlin_arbitrator.sv                  ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_arbitrator.sv                  ;         ;
-; de0qsys_cmd_xbar_mux_001.sv                  ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_mux_001.sv                  ;         ;
-; de0qsys_rsp_xbar_demux_004.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_rsp_xbar_demux_004.sv                ;         ;
-; de0qsys_rsp_xbar_mux.sv                      ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_rsp_xbar_mux.sv                      ;         ;
-; de0qsys_rsp_xbar_mux_001.sv                  ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_rsp_xbar_mux_001.sv                  ;         ;
-; de0qsys_rsp_xbar_mux_002.sv                  ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_rsp_xbar_mux_002.sv                  ;         ;
-; de0qsys_cmd_xbar_demux_004.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_demux_004.sv                ;         ;
-; de0qsys_rsp_xbar_demux_005.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_rsp_xbar_demux_005.sv                ;         ;
-; de0qsys_rsp_xbar_mux_004.sv                  ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_rsp_xbar_mux_004.sv                  ;         ;
-; altera_merlin_width_adapter.sv               ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_width_adapter.sv               ;         ;
-; altera_avalon_st_handshake_clock_crosser.v   ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v   ;         ;
-; altera_avalon_st_clock_crosser.v             ; yes             ; Auto-Found Verilog HDL File        ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_avalon_st_clock_crosser.v             ;         ;
-; de0qsys_irq_mapper.sv                        ; yes             ; Auto-Found SystemVerilog HDL File  ; D:/de0/git1220/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_irq_mapper.sv                        ;         ;
-; sld_hub.vhd                                  ; yes             ; Encrypted Megafunction             ; d:/alalala/quartus/libraries/megafunctions/sld_hub.vhd                                                          ;         ;
-; sld_jtag_hub.vhd                             ; yes             ; Encrypted Megafunction             ; d:/alalala/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                                     ;         ;
-; sld_rom_sr.vhd                               ; yes             ; Encrypted Megafunction             ; d:/alalala/quartus/libraries/megafunctions/sld_rom_sr.vhd                                                       ;         ;
-+----------------------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                       ;
++----------------------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path             ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                 ; Library ;
++----------------------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------+---------+
+; de0_top.v                                    ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/de0_top.v                                                                      ;         ;
+; button_debouncer.v                           ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/button_debouncer.v                                                             ;         ;
+; de0qsys.v                                    ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/de0qsys.v                                               ;         ;
+; de0qsys_syspll.v                             ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_syspll.v                             ;         ;
+; de0qsys_nios2cpu.v                           ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_nios2cpu.v                           ;         ;
+; de0qsys_nios2cpu_test_bench.v                ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_nios2cpu_test_bench.v                ;         ;
+; altsyncram.tdf                               ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/altsyncram.tdf                                                     ;         ;
+; stratix_ram_block.inc                        ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/stratix_ram_block.inc                                              ;         ;
+; lpm_mux.inc                                  ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/lpm_mux.inc                                                        ;         ;
+; lpm_decode.inc                               ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/lpm_decode.inc                                                     ;         ;
+; aglobal130.inc                               ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/aglobal130.inc                                                     ;         ;
+; a_rdenreg.inc                                ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/a_rdenreg.inc                                                      ;         ;
+; altrom.inc                                   ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/altrom.inc                                                         ;         ;
+; altram.inc                                   ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/altram.inc                                                         ;         ;
+; altdpram.inc                                 ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/altdpram.inc                                                       ;         ;
+; db/altsyncram_cig1.tdf                       ; yes             ; Auto-Generated Megafunction        ; F:/git_file/robot/DE0_TOP_New/db/altsyncram_cig1.tdf                                                         ;         ;
+; db/altsyncram_dig1.tdf                       ; yes             ; Auto-Generated Megafunction        ; F:/git_file/robot/DE0_TOP_New/db/altsyncram_dig1.tdf                                                         ;         ;
+; altera_std_synchronizer.v                    ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/altera_std_synchronizer.v                                          ;         ;
+; db/altsyncram_gv71.tdf                       ; yes             ; Auto-Generated Megafunction        ; F:/git_file/robot/DE0_TOP_New/db/altsyncram_gv71.tdf                                                         ;         ;
+; de0qsys_nios2cpu_oci_test_bench.v            ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_nios2cpu_oci_test_bench.v            ;         ;
+; de0qsys_nios2cpu_jtag_debug_module_wrapper.v ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_nios2cpu_jtag_debug_module_wrapper.v ;         ;
+; de0qsys_nios2cpu_jtag_debug_module_tck.v     ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_nios2cpu_jtag_debug_module_tck.v     ;         ;
+; de0qsys_nios2cpu_jtag_debug_module_sysclk.v  ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_nios2cpu_jtag_debug_module_sysclk.v  ;         ;
+; sld_virtual_jtag_basic.v                     ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/sld_virtual_jtag_basic.v                                           ;         ;
+; de0qsys_sdram_ctrl.v                         ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_sdram_ctrl.v                         ;         ;
+; de0qsys_dma.v                                ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_dma.v                                ;         ;
+; lpm_ram_dp.tdf                               ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/lpm_ram_dp.tdf                                                     ;         ;
+; altdpram.tdf                                 ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/altdpram.tdf                                                       ;         ;
+; memmodes.inc                                 ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/others/maxplus2/memmodes.inc                                                     ;         ;
+; a_hdffe.inc                                  ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/a_hdffe.inc                                                        ;         ;
+; alt_le_rden_reg.inc                          ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/alt_le_rden_reg.inc                                                ;         ;
+; altsyncram.inc                               ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/altsyncram.inc                                                     ;         ;
+; db/altsyncram_oeq1.tdf                       ; yes             ; Auto-Generated Megafunction        ; F:/git_file/robot/DE0_TOP_New/db/altsyncram_oeq1.tdf                                                         ;         ;
+; altera_avalon_mm_bridge.v                    ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_avalon_mm_bridge.v                    ;         ;
+; de0qsys_jtag_uart.v                          ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_jtag_uart.v                          ;         ;
+; scfifo.tdf                                   ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/scfifo.tdf                                                         ;         ;
+; a_regfifo.inc                                ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/a_regfifo.inc                                                      ;         ;
+; a_dpfifo.inc                                 ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/a_dpfifo.inc                                                       ;         ;
+; a_i2fifo.inc                                 ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/a_i2fifo.inc                                                       ;         ;
+; a_fffifo.inc                                 ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/a_fffifo.inc                                                       ;         ;
+; a_f2fifo.inc                                 ; yes             ; Megafunction                       ; e:/altera/quartus/libraries/megafunctions/a_f2fifo.inc                                                       ;         ;
+; db/scfifo_aq21.tdf                           ; yes             ; Auto-Generated Megafunction        ; F:/git_file/robot/DE0_TOP_New/db/scfifo_aq21.tdf                                                             ;         ;
+; db/a_dpfifo_h031.tdf                         ; yes             ; Auto-Generated Megafunction        ; F:/git_file/robot/DE0_TOP_New/db/a_dpfifo_h031.tdf                                                           ;         ;
+; db/a_fefifo_7cf.tdf                          ; yes             ; Auto-Generated Megafunction        ; F:/git_file/robot/DE0_TOP_New/db/a_fefifo_7cf.tdf                                                            ;         ;
+; db/cntr_4n7.tdf                              ; yes             ; Auto-Generated Megafunction        ; F:/git_file/robot/DE0_TOP_New/db/cntr_4n7.tdf                                                                ;         ;
+; db/dpram_ek21.tdf                            ; yes             ; Auto-Generated Megafunction        ; F:/git_file/robot/DE0_TOP_New/db/dpram_ek21.tdf                                                              ;         ;
+; db/altsyncram_i0m1.tdf                       ; yes             ; Auto-Generated Megafunction        ; F:/git_file/robot/DE0_TOP_New/db/altsyncram_i0m1.tdf                                                         ;         ;
+; db/cntr_omb.tdf                              ; yes             ; Auto-Generated Megafunction        ; F:/git_file/robot/DE0_TOP_New/db/cntr_omb.tdf                                                                ;         ;
+; alt_jtag_atlantic.v                          ; yes             ; Encrypted Megafunction             ; e:/altera/quartus/libraries/megafunctions/alt_jtag_atlantic.v                                                ;         ;
+; de0qsys_timer.v                              ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_timer.v                              ;         ;
+; de0qsys_uart0.v                              ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_uart0.v                              ;         ;
+; de0qsys_led.v                                ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_led.v                                ;         ;
+; de0qsys_sw.v                                 ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_sw.v                                 ;         ;
+; de0qsys_button1.v                            ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_button1.v                            ;         ;
+; de0qsys_button2.v                            ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_button2.v                            ;         ;
+; de0qsys_hex0.v                               ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_hex0.v                               ;         ;
+; altera_merlin_master_translator.sv           ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_master_translator.sv           ;         ;
+; altera_merlin_slave_translator.sv            ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_slave_translator.sv            ;         ;
+; altera_merlin_master_agent.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_master_agent.sv                ;         ;
+; altera_merlin_slave_agent.sv                 ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_slave_agent.sv                 ;         ;
+; altera_merlin_burst_uncompressor.sv          ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_burst_uncompressor.sv          ;         ;
+; altera_avalon_sc_fifo.v                      ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_avalon_sc_fifo.v                      ;         ;
+; de0qsys_addr_router.sv                       ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_addr_router.sv                       ;         ;
+; de0qsys_addr_router_001.sv                   ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_addr_router_001.sv                   ;         ;
+; de0qsys_addr_router_002.sv                   ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_addr_router_002.sv                   ;         ;
+; de0qsys_id_router.sv                         ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_id_router.sv                         ;         ;
+; de0qsys_id_router_001.sv                     ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_id_router_001.sv                     ;         ;
+; de0qsys_id_router_003.sv                     ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_id_router_003.sv                     ;         ;
+; de0qsys_id_router_004.sv                     ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_id_router_004.sv                     ;         ;
+; de0qsys_addr_router_004.sv                   ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_addr_router_004.sv                   ;         ;
+; de0qsys_id_router_005.sv                     ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_id_router_005.sv                     ;         ;
+; altera_merlin_traffic_limiter.sv             ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_traffic_limiter.sv             ;         ;
+; altera_merlin_burst_adapter.sv               ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_burst_adapter.sv               ;         ;
+; altera_merlin_address_alignment.sv           ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_address_alignment.sv           ;         ;
+; altera_reset_controller.v                    ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_reset_controller.v                    ;         ;
+; altera_reset_synchronizer.v                  ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_reset_synchronizer.v                  ;         ;
+; de0qsys_cmd_xbar_demux.sv                    ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_demux.sv                    ;         ;
+; de0qsys_cmd_xbar_demux_001.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_demux_001.sv                ;         ;
+; de0qsys_cmd_xbar_demux_002.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_demux_002.sv                ;         ;
+; de0qsys_cmd_xbar_demux_003.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_demux_003.sv                ;         ;
+; de0qsys_cmd_xbar_mux.sv                      ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_mux.sv                      ;         ;
+; altera_merlin_arbitrator.sv                  ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_arbitrator.sv                  ;         ;
+; de0qsys_cmd_xbar_mux_001.sv                  ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_mux_001.sv                  ;         ;
+; de0qsys_rsp_xbar_demux_004.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_rsp_xbar_demux_004.sv                ;         ;
+; de0qsys_rsp_xbar_mux.sv                      ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_rsp_xbar_mux.sv                      ;         ;
+; de0qsys_rsp_xbar_mux_001.sv                  ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_rsp_xbar_mux_001.sv                  ;         ;
+; de0qsys_rsp_xbar_mux_002.sv                  ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_rsp_xbar_mux_002.sv                  ;         ;
+; de0qsys_cmd_xbar_demux_004.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_cmd_xbar_demux_004.sv                ;         ;
+; de0qsys_rsp_xbar_demux_005.sv                ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_rsp_xbar_demux_005.sv                ;         ;
+; de0qsys_rsp_xbar_mux_004.sv                  ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_rsp_xbar_mux_004.sv                  ;         ;
+; altera_merlin_width_adapter.sv               ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_merlin_width_adapter.sv               ;         ;
+; altera_avalon_st_handshake_clock_crosser.v   ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v   ;         ;
+; altera_avalon_st_clock_crosser.v             ; yes             ; Auto-Found Verilog HDL File        ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/altera_avalon_st_clock_crosser.v             ;         ;
+; de0qsys_irq_mapper.sv                        ; yes             ; Auto-Found SystemVerilog HDL File  ; F:/git_file/robot/DE0_TOP_New/qsys/de0qsys/synthesis/submodules/de0qsys_irq_mapper.sv                        ;         ;
+; sld_hub.vhd                                  ; yes             ; Encrypted Megafunction             ; e:/altera/quartus/libraries/megafunctions/sld_hub.vhd                                                        ;         ;
+; sld_jtag_hub.vhd                             ; yes             ; Encrypted Megafunction             ; e:/altera/quartus/libraries/megafunctions/sld_jtag_hub.vhd                                                   ;         ;
+; sld_rom_sr.vhd                               ; yes             ; Encrypted Megafunction             ; e:/altera/quartus/libraries/megafunctions/sld_rom_sr.vhd                                                     ;         ;
++----------------------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------+
@@ -636,16 +635,16 @@ applicable agreement for further details.
 +---------------------------------------------+----------------------------------------------------------------------------------+
 ; Resource                                    ; Usage                                                                            ;
 +---------------------------------------------+----------------------------------------------------------------------------------+
-; Estimated Total logic elements              ; 4,931                                                                            ;
+; Estimated Total logic elements              ; 4,929                                                                            ;
 ;                                             ;                                                                                  ;
-; Total combinational functions               ; 4123                                                                             ;
+; Total combinational functions               ; 4121                                                                             ;
 ; Logic element usage by number of LUT inputs ;                                                                                  ;
-;     -- 4 input functions                    ; 2180                                                                             ;
-;     -- 3 input functions                    ; 1171                                                                             ;
-;     -- <=2 input functions                  ; 772                                                                              ;
+;     -- 4 input functions                    ; 2178                                                                             ;
+;     -- 3 input functions                    ; 1168                                                                             ;
+;     -- <=2 input functions                  ; 775                                                                              ;
 ;                                             ;                                                                                  ;
 ; Logic elements by mode                      ;                                                                                  ;
-;     -- normal mode                          ; 3694                                                                             ;
+;     -- normal mode                          ; 3692                                                                             ;
 ;     -- arithmetic mode                      ; 429                                                                              ;
 ;                                             ;                                                                                  ;
 ; Total registers                             ; 2748                                                                             ;
@@ -660,7 +659,7 @@ applicable agreement for further details.
 ;                                             ;                                                                                  ;
 ; Maximum fan-out node                        ; DE0Qsys:u0|DE0Qsys_syspll:syspll|DE0Qsys_syspll_altpll_fbh2:sd1|wire_pll7_clk[0] ;
 ; Maximum fan-out                             ; 2635                                                                             ;
-; Total fan-out                               ; 26211                                                                            ;
+; Total fan-out                               ; 26200                                                                            ;
 ; Average fan-out                             ; 3.43                                                                             ;
 +---------------------------------------------+----------------------------------------------------------------------------------+
 
@@ -670,7 +669,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                   ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                            ; Library Name ;
 +--------------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |DE0_TOP                                                                                                     ; 4123 (1)          ; 2748 (0)     ; 15360       ; 0            ; 0       ; 0         ; 252  ; 0            ; |DE0_TOP                                                                                                                                                                                                                                                                                                                                       ; work         ;
+; |DE0_TOP                                                                                                     ; 4121 (1)          ; 2748 (0)     ; 15360       ; 0            ; 0       ; 0         ; 252  ; 0            ; |DE0_TOP                                                                                                                                                                                                                                                                                                                                       ; work         ;
 ;    |DE0Qsys:u0|                                                                                              ; 3919 (0)          ; 2615 (0)     ; 15360       ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|DE0Qsys:u0                                                                                                                                                                                                                                                                                                                            ; work         ;
 ;       |DE0Qsys_addr_router:addr_router|                                                                      ; 15 (15)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|DE0Qsys:u0|DE0Qsys_addr_router:addr_router                                                                                                                                                                                                                                                                                            ; work         ;
 ;       |DE0Qsys_addr_router_001:addr_router_001|                                                              ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|DE0Qsys:u0|DE0Qsys_addr_router_001:addr_router_001                                                                                                                                                                                                                                                                                    ; work         ;
@@ -853,9 +852,9 @@ applicable agreement for further details.
 ;    |button_debouncer:button_debouncer_inst0|                                                                 ; 43 (43)           ; 26 (26)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|button_debouncer:button_debouncer_inst0                                                                                                                                                                                                                                                                                               ; work         ;
 ;    |button_debouncer:button_debouncer_inst1|                                                                 ; 0 (0)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|button_debouncer:button_debouncer_inst1                                                                                                                                                                                                                                                                                               ; work         ;
 ;    |button_debouncer:button_debouncer_inst2|                                                                 ; 0 (0)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|button_debouncer:button_debouncer_inst2                                                                                                                                                                                                                                                                                               ; work         ;
-;    |sld_hub:auto_hub|                                                                                        ; 160 (1)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                      ; work         ;
-;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                                         ; 159 (118)         ; 97 (69)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                                                                                         ; work         ;
-;          |sld_rom_sr:hub_info_reg|                                                                           ; 24 (24)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg                                                                                                                                                                                                                                                 ; work         ;
+;    |sld_hub:auto_hub|                                                                                        ; 158 (1)           ; 97 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                      ; work         ;
+;       |sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|                                                         ; 157 (117)         ; 97 (69)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst                                                                                                                                                                                                                                                                         ; work         ;
+;          |sld_rom_sr:hub_info_reg|                                                                           ; 23 (23)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_rom_sr:hub_info_reg                                                                                                                                                                                                                                                 ; work         ;
 ;          |sld_shadow_jsm:shadow_jsm|                                                                         ; 17 (17)           ; 19 (19)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |DE0_TOP|sld_hub:auto_hub|sld_jtag_hub:\jtag_hub_gen:sld_jtag_hub_inst|sld_shadow_jsm:shadow_jsm                                                                                                                                                                                                                                               ; work         ;
 +--------------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -8504,8 +8503,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------+--------------+
 ; Partition Name   ; Elapsed Time ;
 +------------------+--------------+
-; Top              ; 00:00:22     ;
-; sld_hub:auto_hub ; 00:00:01     ;
+; Top              ; 00:00:11     ;
+; sld_hub:auto_hub ; 00:00:00     ;
 +------------------+--------------+
 
 
@@ -8515,9 +8514,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Thu Dec 21 15:51:53 2023
+    Info: Processing started: Sat Dec 23 22:13:29 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DE0_TOP -c DE0_TOP
-Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Warning (12125): Using design file de0_top.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: DE0_TOP
 Info (12127): Elaborating entity "DE0_TOP" for the top level hierarchy
@@ -9170,7 +9169,7 @@ Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal 
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "sld_hub:auto_hub|receive[0][0]" is stuck at GND
 Info (286031): Timing-Driven Synthesis is running on partition "sld_hub:auto_hub"
-Info (144001): Generated suppressed messages file D:/de0/git1220/robot/DE0_TOP_New/DE0_TOP.map.smsg
+Info (144001): Generated suppressed messages file F:/git_file/robot/DE0_TOP_New/DE0_TOP.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
 Warning (15899): PLL "DE0Qsys:u0|DE0Qsys_syspll:syspll|DE0Qsys_syspll_altpll_fbh2:sd1|pll7" has parameters clk2_multiply_by and clk2_divide_by specified but port CLK[2] is not connected
@@ -9189,23 +9188,23 @@ Warning (21074): Design contains 14 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "GPIO0_CLKIN[1]"
     Warning (15610): No output dependent on input pin "GPIO1_CLKIN[0]"
     Warning (15610): No output dependent on input pin "GPIO1_CLKIN[1]"
-Info (21057): Implemented 5701 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 5699 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 26 input pins
     Info (21059): Implemented 119 output pins
     Info (21060): Implemented 111 bidirectional pins
-    Info (21061): Implemented 5299 logic cells
+    Info (21061): Implemented 5297 logic cells
     Info (21064): Implemented 144 RAM segments
     Info (21065): Implemented 1 PLLs
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 266 warnings
-    Info: Peak virtual memory: 4802 megabytes
-    Info: Processing ended: Thu Dec 21 15:52:36 2023
-    Info: Elapsed time: 00:00:43
-    Info: Total CPU time (on all processors): 00:00:38
+    Info: Peak virtual memory: 4816 megabytes
+    Info: Processing ended: Sat Dec 23 22:13:53 2023
+    Info: Elapsed time: 00:00:24
+    Info: Total CPU time (on all processors): 00:00:12
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in D:/de0/git1220/robot/DE0_TOP_New/DE0_TOP.map.smsg.
+The suppressed messages can be found in F:/git_file/robot/DE0_TOP_New/DE0_TOP.map.smsg.
 
 
