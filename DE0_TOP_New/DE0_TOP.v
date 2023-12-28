@@ -254,7 +254,7 @@ button_debouncer	button_debouncer_inst2(
         .areset_export     (0),           	  //      areset.export
         .locked_export     (/* no use */),  	  //      locked.export
         .phasedone_export  (/* no use */),   	  //   phasedone.export
-		  .led_export        (LEDG[3:0]),        //         led.export
+		  .led_export        (LEDG),        //         led.export
         .sw_export         (SW[9:0]),          //          sw.export
         .button1_export    (BUTTON[1]),   	 			 //     button1.export
         .button2_export    (BUTTON[2]),  
