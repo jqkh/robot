@@ -3,6 +3,7 @@
 	<name>1229</name>
 	<comment></comment>
 	<projects>
+		<project>1229_bsp</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -18,7 +18,7 @@ void DoEnablePIOInterrupt(sPIO_s *spio)
 {
     int i;
 #ifdef BUTTON1_BASE
-    printf("[MSG][pio]Find BUTTON and start initial pio interrupt.\n");
+    //printf("[MSG][pio]Find BUTTON and start initial pio interrupt.\n");
 
     i = alt_irq_register( spio->uiIRQ,    /* register IRQ number */
                           spio,           /* pointer to any passed context */
@@ -26,7 +26,7 @@ void DoEnablePIOInterrupt(sPIO_s *spio)
     /* Setting pio interrupt register */
     IOWR(spio->uiBase, 2, 0x07); /* Set buttion[2:0] pio interrupt */
     IOWR(spio->uiBase, 3, 0);  /* Clear edgecapture flag */
-    printf("[MSG][pio]pio interrupt is activated.\n");
+    //printf("[MSG][pio]pio interrupt is activated.\n");
 #else
     printf("[MSG][pio]Can't find BUTTON pio peripheral. \n");
 #endif
@@ -43,7 +43,7 @@ void DoDisablePIOInterrupt(sPIO_s *spio)/* disable pio interrupt */
 void PIOISRInitial(sPIO_s *spio ){
     // initial pio
     #ifdef BUTTON1_BASE
-        printf("[MSG][pio]Find BTTON pio and start initial process.\n");
+       // printf("[MSG][pio]Find BTTON pio and start initial process.\n");
         spio->uiBase = BUTTON1_BASE;  /* store button base 	 	  */
         spio->uiIRQ  = BUTTON1_IRQ;   /* store button IRQ number   */
         spio->uiData = 0;            /* set Data variable 		  */
