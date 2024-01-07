@@ -1,3 +1,4 @@
+#include <system.h>
 void star_display(int i)
 {
 	 int num0,num1,num2,num3;
@@ -105,6 +106,7 @@ void end_display(int i)
 			num1=0x0;
 			num2=0x0;
 			num3=0x0;
+			break;
 		case 13:
 			num0=0x2;
 			num1=0x0;

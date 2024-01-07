@@ -38,6 +38,39 @@ int he0(int x)
 		case 10:
 			hex=0x77;
 			break;
+		case 11:
+			hex=0xF7;
+			break;
+		case 12:
+			hex=0xFC;
+			break;
+		case 13:
+			hex=0xB9;
+			break;
+		case 14:
+			hex=0xDE;
+			break;
+		case 15:
+			hex=0xF9;
+			break;
+		case 16:
+			hex=0xF1;
+			break;
+		case 17:
+			hex=0xEF;
+			break;
+		case 18:
+			hex=0xF6;
+			break;
+		case 19:
+			hex=0x86;
+			break;
+		case 20:
+			hex=0x8D;
+			break;
+		case 21:
+			hex=0xB8;
+			break;
 	}
 	return ~hex;
 }
