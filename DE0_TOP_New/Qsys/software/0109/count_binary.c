@@ -1,14 +1,13 @@
-#include <stdio.h>
-#include <system.h>
-#include <io.h>
-#include <unistd.h>
-#include <time.h>
-#include <stdlib.h>
-#include "star.c"
-#include "pio.h"
-#include "pio.c"
-#include "hex.c"
-#include "Role.c"
+#include <stdio.h> /* 系統標準輸出入函式庫 */
+#include <system.h>/* 系統函式庫 */
+#include <io.h>    /* 系統I/O函式庫*/
+#include <unistd.h>/* 宣告 usleep 函數 */
+#include <stdlib.h>/* 系統標準控制函式庫 */
+#include "star.c"  /*開始關卡跟完成關卡動畫*/
+#include "pio.h"   /*宣告pio函數*/
+#include "pio.c"   /*宣告pio函數*/
+#include "hex.c"   /*七段顯示器解碼函數*/
+#include "Role.c"  /*人物周圍、移動判斷與程式中斷執行主要程式執行*/
 
 unsigned int tmp;
 
